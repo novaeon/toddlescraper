@@ -41,9 +41,9 @@ url = "https://web.toddleapp.com/platform?type=loginForm&usertype=student"
 driver.get(url)
 
 # Find the username and password input fields and submit button by their names
-username_input = driver.find_element_by_name("username")
-password_input = driver.find_element_by_name("password")
-submit_button = driver.find_element_by_name("loginForm")
+username_input = driver.find_element("name", "username")
+password_input = driver.find_element("name", "password")
+submit_button = driver.find_element("name", "loginForm")
 
 # Enter the username and password
 username_input.send_keys("username")
