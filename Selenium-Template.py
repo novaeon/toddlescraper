@@ -41,9 +41,9 @@ url = "https://web.toddleapp.com/platform?type=loginForm&usertype=student"
 driver.get(url)
 
 # Find the username and password input fields and submit button by their names
-username_input = driver.find_element(By.XPATH, "//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div/div/div[2]/input")
-password_input = driver.find_element(By.XPATH, "//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input")
-submit_button = driver.find_element(By.XPATH, "//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button")
+username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div/div/div[2]/input')
+password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
+submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
 # Enter the username and password
 username_input.send_keys("102869@isp.cz")
