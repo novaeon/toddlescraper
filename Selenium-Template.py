@@ -64,11 +64,9 @@ todo_list = wait.until(
     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]"))
 )
 
-wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
-assignments_num_el = wait.until(
-    EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]'))
-)
+time.sleep(3)
 
+assignments_num_el = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]')
 assignments_num = int(assignments_num_el.text)
 
 print("ASSIGMENTS NUM:", assignments_num)
