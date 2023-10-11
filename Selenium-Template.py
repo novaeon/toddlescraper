@@ -80,5 +80,7 @@ for assignment in assignments:
   due_date = assignment.find_element(By.CLASS_NAME, 'FeedItem__bottomText___1pSO3 text-body-2').text
   assignment_data.append(tuple([name, class_name, due_date]))
 
+string_ass = " ".join(str(x) for x in assingment_data)
+
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a GitHub action {" ".join(str(x) for x in assingment_data)}")
+    f.write(f"This was written with a GitHub action {string_ass}")
