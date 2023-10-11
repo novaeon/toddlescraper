@@ -69,7 +69,9 @@ assignments_num_el = wait.until(
     EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]'))
 )
 
-assignments_num = assignments_num_el.text
+assignments_num = int(assignments_num_el.text)
+
+print("ASSIGMENTS NUM:", assignments_num)
 
 assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
 
