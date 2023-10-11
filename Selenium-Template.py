@@ -53,10 +53,32 @@ password_input.send_keys("david&vahe")
 submit_button.click()
 
 wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
-login_button = wait.until(
+todos_button = wait.until(
     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/button"))
 )
 
-print(driver.title)
+todos_button.click()
+
+wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
+todo_list = wait.until(
+    EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]"))
+)
+
+assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+assignments_num =  driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]/text()')
+
+
+while len(assignments) < assignments_num:
+  todo_list.send_keys(Keys.PAGE_DOWN)
+  assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+
+assingment_data = []
+
+for assignment in assignments:
+  name = assignment.find_element(By.CLASS_NAME, 'FeedItem__assessmentName___1hg-J heading-6').text
+  class_name = assignment.find_element(By.CLASS_NAME, 'FeedItem__bottomText___1pSO3 FeedItem__bottomTextTitle___2YBmw').text
+  due_date = assignment.find_element(By.CLASS_NAME, 'FeedItem__bottomText___1pSO3 text-body-2').text
+  assignment_data.append(tuple([name, class_name, due_date]))
+
 with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a GitHub action {driver.title}")
+    f.write(f"This was written with a GitHub action {" ".join(str(x) for x in assingment_data)}")
