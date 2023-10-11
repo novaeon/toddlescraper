@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
+from datetime import datetime
 from ics import Calendar, Event
 from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
@@ -73,8 +74,6 @@ assignments_num = int(assignments_num_el.text)
 assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
 bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
 
-print("ASSIGMENTS NUM:", assignments_num)
-
 while len(assignments) < assignments_num:
   driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
   time.sleep(1)
@@ -89,33 +88,10 @@ for assignment in assignments:
   assingment_data.append(tuple((name, class_name, due_date)))
 
 def convert_date(input_date):
-    # Define month names mapping
-    month_names = {
-        'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
-        'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
-    }
-    input_date = input_date[input_date.find(',') + 1:].strip()
-    # Split the input date into parts
-    parts = input_date.split()
-    # Extract day, month, year, time, and am/pm information
-    day = parts[0]
-    month = month_names[parts[1]]
-    year = parts[2][:-1]  # Remove the comma
-    time = parts[3]
-    am_pm = parts[4]
-    # Split the time into hours and minutes
-    time_parts = time.split(':')
-    hours = time_parts[0]
-    minutes = time_parts[1]
-    # Convert hours to 24-hour format if needed
-    if am_pm.lower() == 'pm':
-        hours = str(int(hours) + 12)
-    # Zero-pad the day, hours, and minutes if needed
-    day = day.zfill(2)
-    hours = hours.zfill(2)
-    minutes = minutes.zfill(2)
-    # Create the formatted date and time string
-    formatted_date = f"{year}-{month}-{day} {hours}:{minutes}:00"
+    date_string = input_date[input_date.find(',') + 1:].strip()
+    date = datetime.strptime(date_string, '%d %b %Y, %I %p')
+    # Format the date string using datetime.strftime
+    formatted_date = date.strftime('%Y-%m-%d %H:%M:%S')
     return formatted_date
 
 c = Calendar()
@@ -128,5 +104,5 @@ for assignment in assingment_data:
   c.events.add(e)
   
 
-with open('my.ics', 'w') as my_file:
+with open('mytoddlecalendar.ics', 'w') as my_file:
     my_file.writelines(c.serialize_iter())
