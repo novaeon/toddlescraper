@@ -82,9 +82,9 @@ while len(assignments) < assignments_num:
 assingment_data = []
 
 for assignment in assignments:
-  name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]/text()')
-  class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]/text()')
-  due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]/text()')
+  name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
+  class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
+  due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
   assignment_data.append(tuple([name, class_name, due_date]))
 
 string_ass = " ".join(str(x) for x in assingment_data)
