@@ -1,4 +1,7 @@
 name: Run Selenium On GitHub Action
+env:
+  email: ${{ secrets.EMAIL }}
+  password: ${{ secrets.PASSWORD }}
 on:
   schedule:
     - cron: '*/15 * * * *'
