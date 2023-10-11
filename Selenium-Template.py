@@ -120,7 +120,7 @@ def convert_date(input_date):
 
 c = Calendar()
 
-for assignment in assignments:
+for assignment in assingment_data:
   e = Event()
   e.name = assignment[0]
   e.description = assignment[1]
