@@ -13,9 +13,7 @@ from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
-chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
-                                      # and if it doesn't exist, download it automatically,
-                                      # then add chromedriver to path
+chromedriver_autoinstaller.install()
 
 chrome_options = webdriver.ChromeOptions()    
 # Add your options as needed    
@@ -43,26 +41,23 @@ driver = webdriver.Chrome(options = chrome_options)
 url = "https://web.toddleapp.com/platform?type=loginForm&usertype=student"
 driver.get(url)
 
-# Find the username and password input fields and submit button by their names
 username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div/div/div[2]/input')
 password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
 submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
-# Enter the username and password
 username_input.send_keys("102869@isp.cz")
 password_input.send_keys("david&vahe")
 
-# Submit the form
 submit_button.click()
 
-wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
+wait = WebDriverWait(driver, 15)  
 todos_button = wait.until(
     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/button"))
 )
 
 todos_button.click()
 
-wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
+wait = WebDriverWait(driver, 15) 
 todo_list = wait.until(
     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
 )
@@ -88,11 +83,29 @@ for assignment in assignments:
   assingment_data.append(tuple((name, class_name, due_date)))
 
 def convert_date(input_date):
-    date_string = input_date[input_date.find(',') + 1:].strip()
-    date = datetime.strptime(date_string, '%d %b %Y, %I %p')
-    # Format the date string using datetime.strftime
-    formatted_date = date.strftime('%Y-%m-%d %H:%M:%S')
-    return formatted_date
+    input_date_time = input_date[input_date.find(',') + 1:].strip()
+    input_format = "%d %b %Y, %I %p"
+    output_format = "%d %b %Y, %I:%M %p"
+    try:
+        datetime_obj = datetime.strptime(input_date_time, input_format)
+        formatted_time = datetime_obj.strftime(output_format)
+        input_date_time = formatted_time
+    except ValueError:
+        pass
+    month_mapping = {
+        "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
+        "May": "05", "Jun": "06", "Jul": "07", "Aug": "08",
+        "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"
+    }
+    date_parts = input_date_time.split(",")
+    date = date_parts[0].strip()
+    time = date_parts[1].strip()
+    day, month, year = date.split()
+    formatted_date = f"{year}-{month_mapping[month]}-{day.zfill(2)}"
+    formatted_time = datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
+    formatted_date_time = f"{formatted_date} {formatted_time}"
+    return formatted_date_time
+
 
 c = Calendar()
 
