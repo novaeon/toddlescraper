@@ -7,6 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
+from ics import Calendar, Event
 from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
@@ -85,9 +86,47 @@ for assignment in assignments:
   name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
   class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
   due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
-  assingment_data.append(tuple([name, class_name, due_date]))
+  assingment_data.append(tuple((name, class_name, due_date)))
 
-string_ass = " ".join(str(x) for x in assingment_data)
+def convert_date(input_date):
+    # Define month names mapping
+    month_names = {
+        'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
+        'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+    }
+    input_date = input_date[input_date.find(',') + 1:].strip()
+    # Split the input date into parts
+    parts = input_date.split()
+    # Extract day, month, year, time, and am/pm information
+    day = parts[0]
+    month = month_names[parts[1]]
+    year = parts[2][:-1]  # Remove the comma
+    time = parts[3]
+    am_pm = parts[4]
+    # Split the time into hours and minutes
+    time_parts = time.split(':')
+    hours = time_parts[0]
+    minutes = time_parts[1]
+    # Convert hours to 24-hour format if needed
+    if am_pm.lower() == 'pm':
+        hours = str(int(hours) + 12)
+    # Zero-pad the day, hours, and minutes if needed
+    day = day.zfill(2)
+    hours = hours.zfill(2)
+    minutes = minutes.zfill(2)
+    # Create the formatted date and time string
+    formatted_date = f"{year}-{month}-{day} {hours}:{minutes}:00"
+    return formatted_date
 
-with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a GitHub action {string_ass}")
+c = Calendar()
+
+for assignment in assignments:
+  e = Event()
+  e.name = assignment[0]
+  e.description = assignment[1]
+  e.begin = e.end = convert_date(assignment[2])
+  c.events.add(e)
+  
+
+with open('my.ics', 'w') as my_file:
+    my_file.writelines(c.serialize_iter())
