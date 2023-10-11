@@ -46,8 +46,8 @@ username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/d
 password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
 submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
-username_input.send_keys("102869@isp.cz")
-password_input.send_keys("david&vahe")
+username_input.send_keys(os.environ['EMAIL'])
+password_input.send_keys(os.environ['PASSWORD'])
 
 submit_button.click()
 
