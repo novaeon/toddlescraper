@@ -62,7 +62,7 @@ todos_button.click()
 
 wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
 todo_list = wait.until(
-    EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]"))
+    EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
 )
 
 time.sleep(3)
@@ -73,7 +73,6 @@ assignments_num = int(assignments_num_el.text)
 print("ASSIGMENTS NUM:", assignments_num)
 
 assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-todo_list.click()
 
 while len(assignments) < assignments_num:
   todo_list.send_keys(Keys.PAGE_DOWN)
