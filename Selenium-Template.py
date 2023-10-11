@@ -65,7 +65,7 @@ todo_list = wait.until(
 )
 
 assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-assignments_num =  driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]/text()')
+assignments_num =  driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text
 
 
 while len(assignments) < assignments_num:
