@@ -6,6 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
+import time
 from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
