@@ -69,14 +69,14 @@ time.sleep(3)
 
 assignments_num_el = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]')
 assignments_num = int(assignments_num_el.text)
+assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
 
 print("ASSIGMENTS NUM:", assignments_num)
 
-assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-
 while len(assignments) < assignments_num:
-  todo_list.send_keys(Keys.PAGE_DOWN)
-  time.sleep(0.25)
+  driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
+  time.sleep(1)
   assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
 
 assingment_data = []
