@@ -64,8 +64,12 @@ todo_list = wait.until(
     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]"))
 )
 
+wait = WebDriverWait(driver, 15)  # Adjust the timeout as needed
+assignments_num = wait.until(
+    EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]/text()'))
+)
+
 assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-assignments_num =  driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text
 
 
 while len(assignments) < assignments_num:
