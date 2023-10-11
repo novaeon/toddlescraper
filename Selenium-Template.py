@@ -76,7 +76,8 @@ assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
 
 
 while len(assignments) < assignments_num:
-  driver.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight', todo_list)
+  driver.execute_script("arguments[0].scroll(0, arguments[0].scrollHeight);", todo_list)
+  time.sleep(0.25)
   assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
 
 assingment_data = []
