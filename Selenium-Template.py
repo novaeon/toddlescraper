@@ -46,8 +46,8 @@ username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/d
 password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
 submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
-username_input.send_keys(os.environ['EMAIL'])
-password_input.send_keys(os.environ['PASSWORD'])
+username_input.send_keys("102869@isp.cz")
+password_input.send_keys("david&vahe")
 
 submit_button.click()
 
@@ -57,24 +57,26 @@ todos_button = wait.until(
 )
 
 todos_button.click()
+actions = ActionChains(driver)
 
-wait = WebDriverWait(driver, 15) 
-todo_list = wait.until(
-    EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
-)
+def load_all_assignments():
+    wait = WebDriverWait(driver, 15) 
+    wait.until(
+        EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
+    )
+    time.sleep(3)
 
-time.sleep(3)
+    assignments_num = int(driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text)
+    assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+    bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
 
-assignments_num_el = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]')
-assignments_num = int(assignments_num_el.text)
-assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
+    while len(assignments) < assignments_num:
+        driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
+        time.sleep(1)
+        assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+    return assignments, assignments_num
 
-while len(assignments) < assignments_num:
-  driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
-  time.sleep(1)
-  assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
-
+assignments, assignments_num = load_all_assignments()
 assingment_data = []
 
 for assignment in assignments:
@@ -82,6 +84,13 @@ for assignment in assignments:
   class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
   due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
   assingment_data.append(tuple((name, class_name, due_date)))
+
+for i in range(assignments_num):
+    actions.move_to_element(assignments[i]).click().perform()
+    link = driver.current_url
+    assingment_data[i] = assingment_data[i] + (link,)
+    driver.back()
+    load_all_assignments()
 
 def convert_date(input_date):
     input_date_time = input_date[input_date.find(',') + 1:].strip()
@@ -107,7 +116,6 @@ def convert_date(input_date):
     formatted_date_time = f"{formatted_date} {formatted_time}"
     return formatted_date_time
 
-
 c = Calendar()
 
 for assignment in assingment_data:
@@ -115,6 +123,7 @@ for assignment in assingment_data:
   e.name = assignment[0]
   e.description = assignment[1]
   e.begin = e.end = convert_date(assignment[2])
+  e.url = assignment[3]
   c.events.add(e)
   
 
