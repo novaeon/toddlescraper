@@ -118,7 +118,7 @@ c = Calendar()
 for assignment in assingment_data:
   e = Event()
   e.name = assignment[0]
-  e.description = assignment[1]
+  e.description = assignment[1] + "\n" + assignment[3]
   e.begin = e.end = convert_date(assignment[2])
   e.url = assignment[3]
   c.events.add(e)
