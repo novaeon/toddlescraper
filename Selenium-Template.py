@@ -6,6 +6,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
+import os
 from datetime import datetime
 from ics import Calendar, Event
 from pyvirtualdisplay import Display
@@ -44,8 +45,8 @@ username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/d
 password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
 submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
-username_input.send_keys("102869@isp.cz")
-password_input.send_keys("david&vahe")
+username_input.send_keys(os.environ['EMAIL'])
+password_input.send_keys(os.environ['PASSWORD'])
 
 submit_button.click()
 
@@ -53,30 +54,26 @@ time.sleep(2)
 
 driver.get("https://web.toddleapp.com/platform/3716/todos")
 
-wait = WebDriverWait(driver, 15)
-  
 actions = ActionChains(driver)
 
 def load_all_assignments():
-    wait.until(
+    WebDriverWait(driver, 15).until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
     )
     time.sleep(2)
 
     assignments_num = int(driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text)
-    assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+    assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
     bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
 
     while len(assignments) < assignments_num:
         driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
-        time.sleep(1)
-        assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
+        time.sleep(0.5)
+        assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
     return assignments, assignments_num
 
 assignments, assignments_num = load_all_assignments()
 assingment_data = []
-print("ASSIGNMENTS NUM:")
-print(assignments_num)
 
 for assignment in assignments:
   name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
@@ -120,7 +117,7 @@ c = Calendar()
 for assignment in assingment_data:
   e = Event()
   e.name = assignment[0]
-  e.description = assignment[1]
+  e.description = assignment[1] + "\n" + assignment[3]
   e.begin = e.end = convert_date(assignment[2])
   e.url = assignment[3]
   c.events.add(e)
