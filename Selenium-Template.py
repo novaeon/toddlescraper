@@ -52,11 +52,12 @@ submit_button.click()
 time.sleep(2)
 
 driver.get("https://web.toddleapp.com/platform/3716/todos")
+
+wait = WebDriverWait(driver, 15)
   
 actions = ActionChains(driver)
 
 def load_all_assignments():
-    wait = WebDriverWait(driver, 15)
     wait.until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
     )
