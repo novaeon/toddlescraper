@@ -56,6 +56,7 @@ driver.get("https://web.toddleapp.com/platform/3716/todos")
 actions = ActionChains(driver)
 
 def load_all_assignments():
+    wait = WebDriverWait(driver, 15)
     wait.until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
     )
@@ -73,6 +74,8 @@ def load_all_assignments():
 
 assignments, assignments_num = load_all_assignments()
 assingment_data = []
+print("ASSIGNMENTS NUM:")
+print(assignments_num)
 
 for assignment in assignments:
   name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
