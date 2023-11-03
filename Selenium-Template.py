@@ -49,14 +49,9 @@ password_input.send_keys("david&vahe")
 
 submit_button.click()
 
-try:
-  wait = WebDriverWait(driver, 15)  
-  todos_button = wait.until(
-      EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[1]/div[1]/div[1]/div[2]/div/div[2]/div/div[2]/div[1]/div[1]/div[2]/button"))
-  )
-  todos_button.click()
-except TimeoutException:
-  driver.get("https://web.toddleapp.com/platform/3716/todos")
+time.sleep(2)
+
+driver.get("https://web.toddleapp.com/platform/3716/todos")
   
 actions = ActionChains(driver)
 
@@ -64,7 +59,7 @@ def load_all_assignments():
     wait.until(
         EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
     )
-    time.sleep(3)
+    time.sleep(2)
 
     assignments_num = int(driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text)
     assignments = driver.find_elements(By.CLASS_NAME, 'FeedItem__container___RSNWD')
