@@ -105,7 +105,11 @@ def convert_date(input_date):
     }
     date_parts = input_date_time.split(",")
     date = date_parts[0].strip()
-    time = date_parts[1].strip()
+    try:
+        time = date_parts[1].strip()
+    except IndexError:
+        print("IndexError: " + date_parts[1])
+        print("Input date: " + input_date)
     day, month, year = date.split()
     formatted_date = f"{year}-{month_mapping[month]}-{day.zfill(2)}"
     formatted_time = datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
