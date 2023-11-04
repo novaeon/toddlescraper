@@ -89,34 +89,15 @@ for i in range(assignments_num):
     load_all_assignments()
 
 def convert_date(input_date):
-    print("Input date: " + input_date)
-    input_date_time = input_date[input_date.find(',') + 1:].strip()
-    input_format = "%d %b %Y, %I %p"
-    output_format = "%d %b %Y, %I:%M %p"
-    try:
-        datetime_obj = datetime.strptime(input_date_time, input_format)
-        formatted_time = datetime_obj.strftime(output_format)
-        input_date_time = formatted_time
-    except ValueError:
-        pass
-    month_mapping = {
-        "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
-        "May": "05", "Jun": "06", "Jul": "07", "Aug": "08",
-        "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"
-    }
-    date_parts = input_date_time.split(",")
-    print("date_parts[1]: " + date_parts[1])
-    date = date_parts[0].strip()
-    try:
-        time = date_parts[1].strip()
-    except IndexError:
-        print("IndexError: " + date_parts[1])
-        print("Input date: " + input_date)
-    day, month, year = date.split()
-    formatted_date = f"{year}-{month_mapping[month]}-{day.zfill(2)}"
-    formatted_time = datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
-    formatted_date_time = f"{formatted_date} {formatted_time}"
-    return formatted_date_time
+    without_day = input_date[input_date.find(',') + 1:].strip()
+    date = without_day[:without_day.find(',')]
+    time = without_day[without_day.find(',') + 1:].strip()
+    date_formatted = datetime.datetime.strptime(date, "%d %b %Y").strftime("%Y-%m-%d")
+    if ":" in time:
+        time_formatted = datetime.datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
+    else:
+        time_formatted = datetime.datetime.strptime(time, "%I %p").strftime("%H:%M:%S")
+    return f"{date_formatted} {time_formatted}"
 
 c = Calendar()
 
