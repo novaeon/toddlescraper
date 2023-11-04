@@ -89,7 +89,6 @@ for i in range(assignments_num):
     load_all_assignments()
 
 def convert_date(input_date):
-    print("IndexError: " + date_parts[1])
     print("Input date: " + input_date)
     input_date_time = input_date[input_date.find(',') + 1:].strip()
     input_format = "%d %b %Y, %I %p"
@@ -106,6 +105,7 @@ def convert_date(input_date):
         "Sep": "09", "Oct": "10", "Nov": "11", "Dec": "12"
     }
     date_parts = input_date_time.split(",")
+    print("date_parts[1]: " + date_parts[1])
     date = date_parts[0].strip()
     try:
         time = date_parts[1].strip()
