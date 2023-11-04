@@ -101,6 +101,8 @@ def convert_date(input_date):
 
 c = Calendar()
 
+print([assignment[2] for assignment in assingment_data])
+
 for assignment in assingment_data:
   e = Event()
   e.name = assignment[0]
