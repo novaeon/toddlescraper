@@ -92,11 +92,11 @@ def convert_date(input_date):
     without_day = input_date[input_date.find(',') + 1:].strip()
     date = without_day[:without_day.find(',')]
     time = without_day[without_day.find(',') + 1:].strip()
-    date_formatted = datetime.datetime.strptime(date, "%d %b %Y").strftime("%Y-%m-%d")
+    date_formatted = datetime.strptime(date, "%d %b %Y").strftime("%Y-%m-%d")
     if ":" in time:
-        time_formatted = datetime.datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
+        time_formatted = datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
     else:
-        time_formatted = datetime.datetime.strptime(time, "%I %p").strftime("%H:%M:%S")
+        time_formatted = datetime.strptime(time, "%I %p").strftime("%H:%M:%S")
     return f"{date_formatted} {time_formatted}"
 
 c = Calendar()
