@@ -2,43 +2,67 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49674557413402396/49674557581171477
-DTEND:20231114T133000Z
-DTSTART:20231114T133000Z
-SUMMARY:Hausaufgaben
-UID:1a084759-c12d-495a-83a7-d9a52f253223@1a08.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49674557413402396/49674557581171477
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
+DTEND:20231121T090000Z
+DTSTART:20231121T090000Z
+SUMMARY:Preparing the IO Outline
+UID:3ac22041-1f15-47a9-ba3d-6020296c9aea@3ac2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49298392278370604/49298423760815349
+DTEND:20231113T132500Z
+DTSTART:20231113T132500Z
+SUMMARY:Analysis of The Slav Epic
+UID:3b6c5089-e189-4354-b058-8b35ab366bc2@3b6c.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49298392278370604/49298423760815349
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/45677694809016273/45677695257807369
+DTEND:20231113T080000Z
+DTSTART:20231113T080000Z
+SUMMARY:CodeHS - OOP ( Advanced OOP)
+UID:eeb2a0cf-0d5a-4abe-a3a2-d8c33c194649@eeb2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/45677694809016273/45677695257807369
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49702978801641831/49703017078865571
+DTEND:20231115T081500Z
+DTSTART:20231115T081500Z
+SUMMARY:Mucha's Body of Work & IO Global Issues
+UID:86516614-9393-4f49-92c7-58b92c0e332b@8651.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49702978801641831/49703017078865571
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/45665471302731160/45665471491482347
 DTEND:20231113T085000Z
 DTSTART:20231113T085000Z
 SUMMARY:Functions Test
-UID:b131720a-25ac-45a1-964a-ed4ff3af075c@b131.org
+UID:c816b464-c22e-40be-bac3-f7c479dc9b2a@c816.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/45665471302731160/45665471491482347
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47896367183433637/47896367376373450
-DTEND:20231117T080000Z
-DTSTART:20231117T080000Z
-SUMMARY:13 - 16 November
-UID:6070852b-89a3-4934-9106-40a9d13b1331@6070.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47896367183433637/47896367376373450
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DTEND:20231124T080000Z
+DTSTART:20231124T080000Z
+SUMMARY:21 - 24 November
+UID:b304805a-9825-4325-9131-e76ae9bfb42f@b304.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
-DTEND:20231121T090000Z
-DTSTART:20231121T090000Z
-SUMMARY:Preparing the IO Outline
-UID:2085bd62-f94e-4422-9b9a-3a0c409aa3cb@2085.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49674557413402396/49674557581171477
+DTEND:20231114T133000Z
+DTSTART:20231114T133000Z
+SUMMARY:Hausaufgaben
+UID:2435c960-9d8c-4b3e-b68a-144989fad092@2435.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49674557413402396/49674557581171477
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49690156717844587/49690156881424290
 DTEND:20231114T133000Z
 DTSTART:20231114T133000Z
 SUMMARY:Trendsport oder Breitensport?
-UID:302157cc-f916-4f4d-ad4c-f00ae11fabfb@3021.org
+UID:775215c0-e89f-46c7-aa1b-df1e7ed3d730@7752.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49690156717844587/49690156881424290
 END:VEVENT
 BEGIN:VEVENT
@@ -46,39 +70,15 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20231123T073000Z
 DTSTART:20231123T073000Z
 SUMMARY:Momentum Energy & Circular Motion Assessment
-UID:0e5c88c2-d210-4e91-9a20-e2d5de8406bc@0e5c.org
+UID:aa13eb30-77e5-47b2-a5f3-9b8e3e035ecd@aa13.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49298392278370604/49298423760815349
-DTEND:20231113T132500Z
-DTSTART:20231113T132500Z
-SUMMARY:Analysis of The Slav Epic
-UID:30b5c024-cc07-40e2-b513-6723f9649d0f@30b5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49298392278370604/49298423760815349
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/49702978801641831/49703017078865571
-DTEND:20231115T081500Z
-DTSTART:20231115T081500Z
-SUMMARY:Mucha's Body of Work & IO Global Issues
-UID:23fa56ea-3b6c-4da3-b6aa-637fb5660a3c@23fa.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/49702978801641831/49703017078865571
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/45677694809016273/45677695257807369
-DTEND:20231113T080000Z
-DTSTART:20231113T080000Z
-SUMMARY:CodeHS - OOP ( Advanced OOP)
-UID:eee67fb0-f893-44b5-83b0-adc55a3246c9@eee6.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/45677694809016273/45677695257807369
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-DTEND:20231124T080000Z
-DTSTART:20231124T080000Z
-SUMMARY:21 - 24 November
-UID:57f889f0-c4a9-4bbb-befd-0d45406fd25b@57f8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47896367183433637/47896367376373450
+DTEND:20231117T080000Z
+DTSTART:20231117T080000Z
+SUMMARY:13 - 16 November
+UID:e5c5ebf5-2a24-4577-8814-75d758b30dce@e5c5.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47896367183433637/47896367376373450
 END:VEVENT
 END:VCALENDAR
