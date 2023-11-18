@@ -2,11 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
+DTEND:20231121T080000Z
+DTSTART:20231121T080000Z
+SUMMARY:OOP Quiz
+UID:4a1a518d-e7c4-44e8-be97-e864ea569230@4a1a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Mucha Presentation
+UID:9efa63b7-7ea3-49e0-b098-bda836dc5474@9efa.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DTEND:20231124T080000Z
+DTSTART:20231124T080000Z
+SUMMARY:21 - 24 November
+UID:8bc35870-3196-4e69-a933-76d0aab87d98@8bc3.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51496511162288722/51496511531390147
 DTEND:20231121T090000Z
 DTSTART:20231121T090000Z
 SUMMARY:Introduction + Research for 4 Paintings
-UID:0cb50675-3ba8-49e8-a8d0-174b29db44a9@0cb5.org
+UID:459c2f3c-b49f-43de-a46f-f6d15265aec9@459c.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51496511162288722/51496511531390147
 END:VEVENT
 BEGIN:VEVENT
@@ -14,7 +38,7 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20231122T093000Z
 DTSTART:20231122T093000Z
 SUMMARY:Hausaufgaben
-UID:a00eaf41-f257-4e76-a83b-b57f6d7b525d@a00e.org
+UID:35ea050a-7cd2-4efe-b15d-6e5ec8a2978d@35ea.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
 END:VEVENT
 BEGIN:VEVENT
@@ -22,39 +46,15 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20231121T090000Z
 DTSTART:20231121T090000Z
 SUMMARY:Preparing the IO Outline
-UID:863e5b86-831f-42d6-ab8b-7b87ce0ae202@863e.org
+UID:10d911e9-4440-4c1f-b883-ca93ac391297@10d9.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
-DTEND:20231121T080000Z
-DTSTART:20231121T080000Z
-SUMMARY:OOP Quiz
-UID:2b64eff0-ef91-455e-a08d-958c99217727@2b64.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-DTEND:20231124T080000Z
-DTSTART:20231124T080000Z
-SUMMARY:21 - 24 November
-UID:15451d69-dc45-4a4c-a3f0-2a351cba5579@1545.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Mucha Presentation
-UID:54c0d295-061d-42eb-9a80-834c43fed930@54c0.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
 DTEND:20231123T073000Z
 DTSTART:20231123T073000Z
 SUMMARY:Momentum Energy Assessment
-UID:d5547674-854d-4ce8-8dfe-16ea2848e21c@d554.org
+UID:481d1a20-302d-49c2-8fae-916746cd84a3@481d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
 END:VEVENT
 END:VCALENDAR
