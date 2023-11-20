@@ -2,35 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Mucha Presentation
-UID:775e47aa-72cb-4867-adc1-1683680103bb@775e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
 DTEND:20231121T080000Z
 DTSTART:20231121T080000Z
 SUMMARY:OOP Quiz
-UID:cdb0e98b-8589-4efa-bcde-4adc84535267@cdb0.org
+UID:e56c3993-c73d-4c29-9da9-2802a9e2a1b3@e56c.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50763959506046434/50763960005173639
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
-DTEND:20231121T090000Z
-DTSTART:20231121T090000Z
-SUMMARY:Preparing the IO Outline
-UID:57d13f81-a3d6-4178-849d-55a2df750d11@57d1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51496511162288722/51496511531390147
 DTEND:20231121T090000Z
 DTSTART:20231121T090000Z
 SUMMARY:Introduction + Research for 4 Paintings
-UID:246ae51f-2e07-4d62-a59e-7e881650b66d@246a.org
+UID:97724285-33cf-48ff-abda-4d4143e10f2a@9772.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51496511162288722/51496511531390147
 END:VEVENT
 BEGIN:VEVENT
@@ -38,23 +22,39 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20231122T093000Z
 DTSTART:20231122T093000Z
 SUMMARY:Hausaufgaben
-UID:eb45894b-84ce-4125-b06c-bbccb9b74fbb@eb45.org
+UID:687bf3b7-b987-4d0c-8ca5-bd7625780edd@687b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-DTEND:20231124T080000Z
-DTSTART:20231124T080000Z
-SUMMARY:21 - 24 November
-UID:e5aa1fe1-141e-4bd5-b083-b7f377e0f6c8@e5aa.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
 DTEND:20231123T073000Z
 DTSTART:20231123T073000Z
 SUMMARY:Momentum Energy Assessment
-UID:2779d950-b088-4c70-a5c4-d9bab39b5b38@2779.org
+UID:4d722c60-4732-4db2-a635-8330a536e381@4d72.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
+DTEND:20231121T090000Z
+DTSTART:20231121T090000Z
+SUMMARY:Preparing the IO Outline
+UID:169d75e7-57d7-41d2-b01c-40548778ef16@169d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/50451084895861813/50451085239792777
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DTEND:20231124T080000Z
+DTSTART:20231124T080000Z
+SUMMARY:21 - 24 November
+UID:f4231b0b-04ea-469a-b4d7-b9d7603130d0@f423.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Mucha Presentation
+UID:2fdff742-46d3-4675-a3c1-675ee742de41@2fdf.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
 END:VEVENT
 END:VCALENDAR
