@@ -24,7 +24,7 @@ jobs:
         
        # Need to fetch reqs if needed
       - name: Installing all necessary packages
-        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay ics datetime
+        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay ics pyShortUrl datetime
       - name: Install xvfb
         run: sudo apt-get install xvfb
 
