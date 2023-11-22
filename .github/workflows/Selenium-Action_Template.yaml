@@ -22,9 +22,10 @@ jobs:
       - name: Removing previous chrome instances on runner 
         run: sudo apt purge google-chrome-stable  
         
-       # Need to fetch reqs if needed
+      - name: Installing requests
+        run: pip install requests
       - name: Installing all necessary packages
-        run: pip install chromedriver-autoinstaller selenium requests pyvirtualdisplay ics pyShortUrl datetime
+        run: pip install chromedriver-autoinstaller selenium pyvirtualdisplay ics pyShortUrl datetime
       - name: Install xvfb
         run: sudo apt-get install xvfb
 
