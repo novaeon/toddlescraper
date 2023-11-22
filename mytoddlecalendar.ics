@@ -2,43 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/53353393929861146/53353394093438128
-DTEND:20231122T093000Z
-DTSTART:20231122T093000Z
-SUMMARY:Genussmittel
-UID:1e92e21d-eb1c-480d-941a-82f245d63963@1e92.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/53353393929861146/53353394093438128
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
-DTEND:20231122T093000Z
-DTSTART:20231122T093000Z
-SUMMARY:Hausaufgaben
-UID:67034e30-199e-4102-8243-4f91517d0156@6703.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Mucha Presentation
-UID:eb525be0-f92c-4a59-8cb4-a3003ec1a4ad@eb52.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-DTEND:20231124T080000Z
-DTSTART:20231124T080000Z
-SUMMARY:21 - 24 November
-UID:7cbc751a-ff78-4156-b707-fc699ba96bb0@7cbc.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/53644769389186047/53644809197338244
 DTEND:20231123T100000Z
 DTSTART:20231123T100000Z
 SUMMARY:Preparing the Presentation Outline
-UID:1b84d400-467b-4216-9424-82f09b2e5542@1b84.org
+UID:1e2322ca-efad-4eea-a6a5-b9d63b97b7a1@1e23.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/53644769389186047/53644809197338244
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +14,39 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20231123T073000Z
 DTSTART:20231123T073000Z
 SUMMARY:Momentum Energy Assessment
-UID:4c055ab1-4053-42a9-9b14-6c461b878f69@4c05.org
+UID:7b2430cd-3eef-4009-acef-bb1d4ca927b2@7b24.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47889376880889645/47889377057050118
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DTEND:20231124T080000Z
+DTSTART:20231124T080000Z
+SUMMARY:21 - 24 November
+UID:0dd64075-15d6-4868-9e5e-f1dde96908ca@0dd6.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/53353393929861146/53353394093438128
+DTEND:20231122T093000Z
+DTSTART:20231122T093000Z
+SUMMARY:Genussmittel
+UID:8c7960df-44fe-4450-a2a9-7fad6055fad4@8c79.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/53353393929861146/53353394093438128
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Mucha Presentation
+UID:707b55d6-9b94-4f92-bc26-0a02586ddb24@707b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
+DTEND:20231122T093000Z
+DTSTART:20231122T093000Z
+SUMMARY:Hausaufgaben
+UID:55600e59-0b58-4c8e-b703-4039819544c9@5560.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51248780086884319/51248780279816801
 END:VEVENT
 END:VCALENDAR
