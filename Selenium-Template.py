@@ -10,8 +10,8 @@ import os
 from datetime import datetime
 from ics import Calendar, Event
 from pyvirtualdisplay import Display
-from pyshorturl import TinyUrlcom
-linkshortener = TinyUrlcom()
+import pyshorteners
+type_tiny = pyshorteners.Shortener()
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
@@ -93,7 +93,7 @@ while macgyver:
 for i in range(assignments_num):
     actions.move_to_element(assignments[i]).click().perform()
     link = driver.current_url
-    link_short = linkshortener.shorten_url(link)
+    link_short = type_tiny.tinyurl.short(link)
     details = driver.find_element(By.XPATH, "//*[starts-with(@class, 'Textview__detailText')]").text
     assingment_data[i] = assingment_data[i] + (link_short, details)
     driver.back()
