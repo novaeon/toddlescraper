@@ -2,11 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+DTEND:20231124T080000Z
+DTSTART:20231124T080000Z
+SUMMARY:21 - 24 November
+UID:8282347a-cc2e-4088-9d22-09299533d27d@8282.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
+DTEND:20231124T101500Z
+DTSTART:20231124T101500Z
+SUMMARY:Hausaufgaben
+UID:8bf0fd52-d643-4b78-a3af-6d0f8f892974@8bf0.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Mucha Presentation
+UID:6960b184-4af8-468d-9cc9-522cd3b3d9e9@6960.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54404251861912696/54404252155523139
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Signposting and Concluding Your Presentation
+UID:037fd3eb-87e7-4e68-8dfe-1e21d51f5b69@037f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54404251861912696/54404252155523139
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54429918301262000/54429918460655740
 DTEND:20231124T101500Z
 DTSTART:20231124T101500Z
 SUMMARY:Alkohol und Zigaretten
-UID:f3e91258-86a5-4b8e-bb46-a0e688a2e6ab@f3e9.org
+UID:ae352823-68fb-4695-8151-527a72d43f5c@ae35.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54429918301262000/54429918460655740
 END:VEVENT
 BEGIN:VEVENT
@@ -14,39 +46,7 @@ DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/cl
 DTEND:20231124T123000Z
 DTSTART:20231124T123000Z
 SUMMARY:2.5a PED exam
-UID:01be42f6-ca46-4128-b4e6-328a4fabec3b@01be.org
+UID:1551bef2-0653-4367-af83-cea446deac6f@1551.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54044719751114794/54044719881131373
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Mucha Presentation
-UID:0f4dd44b-76bd-487d-aeb0-504434d7359b@0f4d.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
-DTEND:20231124T101500Z
-DTSTART:20231124T101500Z
-SUMMARY:Hausaufgaben
-UID:e31226b5-37e7-4a81-a686-b1413d5de172@e312.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54404251861912696/54404252155523139
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Signposting and Concluding Your Presentation
-UID:5d0c9b61-d1cd-4c3f-bcea-9d4bcbae4d7d@5d0c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54404251861912696/54404252155523139
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
-DTEND:20231124T080000Z
-DTSTART:20231124T080000Z
-SUMMARY:21 - 24 November
-UID:a72da564-cf6f-4501-89c5-b9ff4708e94e@a72d.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
 END:VEVENT
 END:VCALENDAR
