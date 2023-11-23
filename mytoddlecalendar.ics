@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-DTEND:20231127T121500Z
-DTSTART:20231127T121500Z
-SUMMARY:Mucha Presentation
-UID:cd9ec2ad-ec23-4044-8082-a7dd789d6c3a@cd9e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54044719751114794/54044719881131373
 DTEND:20231124T123000Z
 DTSTART:20231124T123000Z
 SUMMARY:2.5a PED exam
-UID:c8a0c725-c6a6-4568-85af-785e789435d3@c8a0.org
+UID:8e050a5c-1af3-4c60-b494-c4e4fb9796e1@8e05.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54044719751114794/54044719881131373
 END:VEVENT
 BEGIN:VEVENT
@@ -22,15 +14,31 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20231124T101500Z
 DTSTART:20231124T101500Z
 SUMMARY:Alkohol und Zigaretten
-UID:a415a641-f547-46f6-837f-016351d7310e@a415.org
+UID:325a8ce5-b5aa-4ee0-a127-2aaba62fd340@325a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54429918301262000/54429918460655740
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
+DTEND:20231124T101500Z
+DTSTART:20231124T101500Z
+SUMMARY:Hausaufgaben
+UID:f3810dca-7bfb-4d1e-8a8a-93578d6d14c4@f381.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
+DTEND:20231127T121500Z
+DTSTART:20231127T121500Z
+SUMMARY:Mucha Presentation
+UID:99c745c2-ca8e-4c23-b178-7189a0be8930@99c7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/51497557926349434/51497558513555292
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
 DTEND:20231124T080000Z
 DTSTART:20231124T080000Z
 SUMMARY:21 - 24 November
-UID:945490ee-e7e0-4402-a9d8-41bfe557163f@9454.org
+UID:70197579-113d-4f11-9471-e85624438c0b@7019.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/47892639256678250/47892639437034050
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +46,7 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20231127T121500Z
 DTSTART:20231127T121500Z
 SUMMARY:Signposting and Concluding Your Presentation
-UID:e20802fb-5e0d-4f8a-b368-87e6bfd020dc@e208.org
+UID:6366b609-7742-42b6-916e-74b3d133cfea@6366.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54404251861912696/54404252155523139
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
-DTEND:20231124T101500Z
-DTSTART:20231124T101500Z
-SUMMARY:Hausaufgaben
-UID:7841c481-2138-4188-af84-2dac5482ead0@7841.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/54071108525110281/54071108697068523
 END:VEVENT
 END:VCALENDAR
