@@ -6,7 +6,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
-import os
+import os, sys
 from datetime import datetime
 from ics import Calendar, Event
 from pyvirtualdisplay import Display
