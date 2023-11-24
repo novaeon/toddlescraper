@@ -13,6 +13,9 @@ from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
+username = sys.argv[1][1:]
+password = sys.argv[2]
+
 chromedriver_autoinstaller.install()
 
 chrome_options = webdriver.ChromeOptions()    
@@ -45,8 +48,8 @@ username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/d
 password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[2]/div[2]/div/div/div/div/input')
 submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[2]/button')
 
-username_input.send_keys(os.environ['EMAIL'])
-password_input.send_keys(os.environ['PASSWORD'])
+username_input.send_keys(username + "@isp.cz")
+password_input.send_keys(password)
 
 submit_button.click()
 
@@ -118,6 +121,6 @@ for assignment in assingment_data:
   e.url = assignment[3]
   c.events.add(e)
   
-
-with open('mytoddlecalendar.ics', 'w') as my_file:
+filename = username + ".ics"
+with open(filename, 'w') as my_file:
     my_file.writelines(c.serialize_iter())
