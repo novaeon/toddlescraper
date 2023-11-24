@@ -13,6 +13,9 @@ from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
+print("ALL ARGUMENTS:")
+print(sys.argv)
+
 username = sys.argv[1][1:]
 password = sys.argv[2]
 
