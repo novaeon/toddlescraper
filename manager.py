@@ -2,8 +2,6 @@ import os
 import subprocess
 
 # Get all environment variables
-env_vars = os.environ
+env_vars = os.environ['ALLSECRETS']
 
-# For each environment variable
-for name, value in env_vars.items():
-    print("GETTING CALENDAR FOR " + name + " PASSWORD IS " + value)
+print(env_vars)
