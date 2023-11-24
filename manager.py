@@ -6,6 +6,5 @@ env_vars = os.environ
 
 # For each environment variable
 for name, value in env_vars.items():
-    # Call the second Python script with the name and value as arguments
+    print("GETTING CALENDAR FOR " + name + " PASSWORD IS " + password)
     subprocess.run(["python", "scraper.py", name, value])
-    print("getting calendar for " + name)
