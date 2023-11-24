@@ -16,6 +16,9 @@ display.start()
 username = sys.argv[1][1:]
 password = sys.argv[2]
 
+print("USERNAME: " + username)
+print("PASSWORD: " + password)
+
 chromedriver_autoinstaller.install()
 
 chrome_options = webdriver.ChromeOptions()    
