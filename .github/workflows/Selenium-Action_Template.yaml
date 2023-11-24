@@ -1,7 +1,6 @@
 name: Run Selenium On GitHub Action
 env:
-  EMAIL: ${{ secrets.EMAIL }}
-  PASSWORD: ${{ secrets.PASSWORD }}
+  ALLSECRETS: ${{ toJSON(secrets) }}
 on:
   workflow_dispatch:
   schedule:
@@ -11,14 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: print secrets and vars list
-        run: |
-          echo "$ALLMYSECRETS"
-          echo "$ALLMYVARS"
-          shell: bash
-        env:
-          ALLMYSECRETS: ${{ toJSON(secrets) }}
-          ALLMYVARS: ${{ toJSON(vars) }}
       - name: Checking out repo
         uses: actions/checkout@v3
       - name: Setting up Python
