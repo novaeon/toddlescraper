@@ -23,7 +23,7 @@ jobs:
         run: sudo apt purge google-chrome-stable  
         
       - name: Installing all necessary packages
-        run: pip install requests os subprocess chromedriver-autoinstaller selenium pyvirtualdisplay ics pyshorteners datetime
+        run: pip install requests chromedriver-autoinstaller selenium pyvirtualdisplay ics pyshorteners datetime
       - name: Install xvfb
         run: sudo apt-get install xvfb
 
