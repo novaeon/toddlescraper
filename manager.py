@@ -3,48 +3,75 @@ import subprocess
 import yaml
 import json
 
+selenium_env = {}
+
 # Get all environment variables
 env_vars = os.environ['ALLSECRETS']
 
-def print_all_keys(data, prefix=""):
+def get_all_keys(data, prefix="", keys_list=None):
+    if keys_list is None:
+        keys_list = []
+
     if isinstance(data, dict):
         for key, value in data.items():
-            print_all_keys(value, prefix + key + '.')
+            get_all_keys(value, prefix + key + '.', keys_list)
     elif isinstance(data, list):
         for i, item in enumerate(data):
-            print_all_keys(item, prefix + str(i) + '.')
+            get_all_keys(item, prefix + str(i) + '.', keys_list)
     else:
-        print(prefix[:-1])  # Print the key without the trailing dot
+        keys_list.append(prefix[:-1])  # Add the key without the trailing dot to the list
 
-def add_variables_to_env(file_path_old, file_path, variables):
-    # Load the YAML file
-    with open(file_path_old, 'r') as file:
-        data = yaml.safe_load(file)
-
-    # Add new variables to env
-    if 'env' in data:
-          for variable_name, variable_value in variables.items():
-              data['env'][variable_name] = variable_value
-
-    # Save the modified content back to the file
-    with open(file_path, 'a') as file:
-        yaml.dump(data, file, default_flow_style=False)
-
-# Path to the YAML file
-old_path = os.path.expanduser('~/workflow.yaml')
-file_path = os.path.expanduser('~/.github/workflows/workflow.yaml')
+    return keys_list
 
 print("PARSED JSON:")
 parsed_data = json.loads(env_vars)
-print_all_keys(parsed_data)
+jsonkeys = get_all_keys(parsed_data)
+print(jsonkeys)
+
+for jsonkey in jsonkeys:
+    dict_key = "ISP_" + jsonkey
+    dict_value = "${{ secrets." + jsonkey + "}}"
+    selenium_env[dict_key]=dict_value
+
+yaml_content = {
+    "name": "Run Selenium On GitHub Action",
+    "env": selenium_env,
+    "on": {
+        "workflow_dispatch": {},
+        "schedule": [
+            {"cron": "*/15 * * * *"}
+        ]
+    },
+    "jobs": {
+        "scrape": {
+            "runs-on": "ubuntu-latest",
+            "timeout-minutes": 15,
+            "steps": [
+                {"name": "Checking out repo", "uses": "actions/checkout@v3"},
+                {"name": "Setting up Python", "uses": "actions/setup-python@v4", "with": {"python-version": "3.9"}},
+                {"name": "Installing package list", "run": "apt list --installed"},
+                {"name": "Removing previous chrome instances on runner", "run": "sudo apt purge google-chrome-stable"},
+                {"name": "Installing all necessary packages", "run": "pip install requests chromedriver-autoinstaller selenium pyvirtualdisplay ics pyshorteners datetime"},
+                {"name": "Install xvfb", "run": "sudo apt-get install xvfb"},
+                {"name": "Running the Python script", "run": "python manager.py"},
+                {
+                    "name": "Commit and Push The Results From Python Selenium Action",
+                    "run": (
+                        "git config --global user.name 'github-actions[bot]'\n"
+                        "git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'\n"
+                        "git add -A\n"
+                        "git commit -m 'GitHub Actions Results added'\n"
+                        "git push"
+                    ),
+                },
+            ],
+        },
+    },
+}
+
+with open(".github/workflows/workflow.yaml", "a") as yaml_file:
+    yaml.dump(yaml_content, yaml_file, default_flow_style=False)
 
 # Variables to add to env
 # PYTHON_NAME: ${{ secrets.GITHUB_REPO_NAME }}
-new_variables = {
-    'VAR1': '${secrets.var1}',
-    'VAR2': '${secrets.var2}'
-}
-
-# Call the function to add variables to env
-add_variables_to_env(old_path, file_path, new_variables)
 
