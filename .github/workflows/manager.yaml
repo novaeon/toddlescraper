@@ -18,7 +18,7 @@ jobs:
         run: apt list --installed    
         
       - name: Installing all necessary packages
-        run: pip install requests chromedriver-autoinstaller selenium pyvirtualdisplay ics pyshorteners datetime
+        run: pip install os yaml
 
       - name: Running the Python script
         run: python manager.py
