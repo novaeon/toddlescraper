@@ -18,7 +18,7 @@ jobs:
         run: apt list --installed    
         
       - name: Installing all necessary packages
-        run: pip install os yaml
+        run: pip install PyYAML
 
       - name: Running the Python script
         run: python manager.py
