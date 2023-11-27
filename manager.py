@@ -16,9 +16,9 @@ def print_all_keys(data, prefix=""):
     else:
         print(prefix[:-1])  # Print the key without the trailing dot
 
-def add_variables_to_env(file_path, variables):
+def add_variables_to_env(file_path_old, file_path, variables):
     # Load the YAML file
-    with open(file_path, 'r') as file:
+    with open(file_path_old, 'r') as file:
         data = yaml.safe_load(file)
 
     # Add new variables to env
@@ -27,10 +27,11 @@ def add_variables_to_env(file_path, variables):
               data['env'][variable_name] = variable_value
 
     # Save the modified content back to the file
-    with open(file_path, 'w') as file:
+    with open(file_path, 'a') as file:
         yaml.dump(data, file, default_flow_style=False)
 
 # Path to the YAML file
+old_path = os.path.expanduser('~/workflow.yaml')
 file_path = os.path.expanduser('~/.github/workflows/workflow.yaml')
 
 print("PARSED JSON:")
@@ -45,5 +46,5 @@ new_variables = {
 }
 
 # Call the function to add variables to env
-add_variables_to_env(file_path, new_variables)
+add_variables_to_env(old_path, file_path, new_variables)
 
