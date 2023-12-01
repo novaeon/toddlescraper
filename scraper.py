@@ -110,6 +110,7 @@ def scrape_toddle(MyUsername, MyPassword):
         return f"{date_formatted} {time_formatted}"
 
     c = Calendar()
+    c.extra = [ContentLine(name="X-WR-CALNAME", value="Toddle Calendar")]
 
     print([assignment[2] for assignment in assingment_data])
 
