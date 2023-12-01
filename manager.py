@@ -30,4 +30,5 @@ parsed_data = json.loads(env_vars)
 jsonkeys = get_all_keys(parsed_data)
 
 for jsonkey in jsonkeys:
+    print("KEY:" + jsonkey + " END")
     print(decode_parts(jsonkey))
