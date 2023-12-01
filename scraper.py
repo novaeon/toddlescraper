@@ -144,12 +144,12 @@ def scrape_toddle(MyUsername, MyPassword):
     print([assignment[2] for assignment in assingment_data])
 
     for assignment in assingment_data:
-    e = Event()
-    e.name = assignment[0]
-    e.description = assignment[1] + "\n" + assignment[3]
-    e.begin = e.end = convert_date(assignment[2])
-    e.url = assignment[3]
-    c.events.add(e)
+        e = Event()
+        e.name = assignment[0]
+        e.description = assignment[1] + "\n" + assignment[3]
+        e.begin = e.end = convert_date(assignment[2])
+        e.url = assignment[3]
+        c.events.add(e)
     
     filename = MyUsername.split("@")[0] + ".ics"
     with open(filename, 'w') as my_file:
