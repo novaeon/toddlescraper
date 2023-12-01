@@ -71,7 +71,6 @@ def scrape_toddle(MyUsername, MyPassword):
 
     for option in options:
         chrome_options.add_argument(option)
-
         
     driver = webdriver.Chrome(options = chrome_options)
 
@@ -88,42 +87,39 @@ def scrape_toddle(MyUsername, MyPassword):
     submit_button.click()
 
     time.sleep(2)
-
-    macgyver = True
-    while macgyver:
-    driver.get("https://web.toddleapp.com/platform/3716/todos")
-    
-    actions = ActionChains(driver)
-    
     def load_all_assignments():
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
         )
         time.sleep(2)
-    
+
         assignments_num = int(driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text)
         assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
         bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
-    
+
         while len(assignments) < assignments_num:
             driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
             time.sleep(0.5)
             assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
         return assignments, assignments_num
-    
-    assignments, assignments_num = load_all_assignments()
-    assingment_data = []
-    
-    for assignment in assignments:
-        name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
-        class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
-        due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
-        assingment_data.append(tuple((name, class_name, due_date)))
 
-    if '' in [assignment[2] for assignment in assingment_data]:
+    actions = ActionChains(driver)
+    macgyver = True
+    while macgyver:
+        driver.get("https://web.toddleapp.com/platform/3716/todos")
+        assignments, assignments_num = load_all_assignments()
         assingment_data = []
-    else:
-        macgyver = False
+    
+        for assignment in assignments:
+            name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
+            class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
+            due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
+            assingment_data.append(tuple((name, class_name, due_date)))
+
+        if '' in [assignment[2] for assignment in assingment_data]:
+            assingment_data = []
+        else:
+            macgyver = False
 
     for i in range(assignments_num):
         actions.move_to_element(assignments[i]).click().perform()
