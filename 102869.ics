@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/57648032908319593/57648033046726751
-DTEND:20231205T073000Z
-DTSTART:20231205T073000Z
-SUMMARY:P2 Leseverstehen
-UID:44f841e1-c3f2-46ad-b7ff-789c9dea889b@44f8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/57648032908319593/57648033046726751
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
 DTEND:20231214T090000Z
 DTSTART:20231214T090000Z
 SUMMARY:Geometry and Trigonometry Test
-UID:b4dc8386-e3dd-4ed2-9c1d-6857de7fc4b7@b4dc.org
+UID:746b002e-183d-48db-a5bf-fdf1fd8bad46@746b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +14,7 @@ DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/cl
 DTEND:20231207T080000Z
 DTSTART:20231207T080000Z
 SUMMARY:2.6 Elasticity Paper 1(a)
-UID:8762fbec-67e7-48dc-974d-56c4674eeb4f@8762.org
+UID:305b35cf-ba7d-40b2-a3b6-96ffbd2d7fbd@305b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/56257198598142149/56257198749132968
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +22,15 @@ DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/cl
 DTEND:20231205T080000Z
 DTSTART:20231205T080000Z
 SUMMARY:2.6 PES notes quiz
-UID:3bfde3eb-2441-46bf-847d-60be3b1498dc@3bfd.org
+UID:38056b1d-4f74-4d4b-9f57-7c8aa826a5ab@3805.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/56256957824121022/56256957970917467
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/57648032908319593/57648033046726751
+DTEND:20231205T073000Z
+DTSTART:20231205T073000Z
+SUMMARY:P2 Leseverstehen
+UID:5dd0f693-514c-4e96-9a59-cb93984930fc@5dd0.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/57648032908319593/57648033046726751
 END:VEVENT
 END:VCALENDAR
