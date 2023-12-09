@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59512236653153570/59512236778983445
-DTEND:20231211T101500Z
-DTSTART:20231211T101500Z
-SUMMARY:Hausaufgaben
-UID:da6ae097-4a54-40f2-ac33-a514a0fff1c7@da6a.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59512236653153570/59512236778983445
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/58023845616951976/58023845767940205
 DTEND:20231212T120000Z
 DTSTART:20231212T120000Z
 SUMMARY:Paper 1 - Websites
-UID:1332e087-a355-46ca-8cd9-6d34d7dd98e8@1332.org
+UID:22674d1b-d979-4d0e-8b5a-21f1411c577f@2267.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/58023845616951976/58023845767940205
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +14,7 @@ DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/tod
 DTEND:20231214T150000Z
 DTSTART:20231214T150000Z
 SUMMARY:TicTacToe Development
-UID:82d14ae7-e7bf-4312-9f3a-8381efb34c8a@82d1.org
+UID:1d61e191-c33b-4569-8fee-c841bc8440ab@1d61.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
 END:VEVENT
 BEGIN:VEVENT
@@ -30,31 +22,39 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20240114T080000Z
 DTSTART:20240114T080000Z
 SUMMARY:Kognity Assessment A2
-UID:573122a2-f3c0-4683-a93e-d82fbdf9e443@5731.org
+UID:a29ae875-beac-41d3-b9d8-63e6ec839a2b@a29a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59512236653153570/59512236778983445
+DTEND:20231211T101500Z
+DTSTART:20231211T101500Z
+SUMMARY:Hausaufgaben
+UID:e06668ff-4a41-484f-b6ac-9aaa644ca575@e066.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59512236653153570/59512236778983445
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
 DTEND:20231214T090000Z
 DTSTART:20231214T090000Z
 SUMMARY:Geometry and Trigonometry Test
-UID:e81de013-bd7d-4a81-9c72-4a38cc73afef@e81d.org
+UID:bce507b7-6415-4d8f-a5f6-c32084d263e0@bce5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-DTEND:20240114T080000Z
-DTSTART:20240114T080000Z
-SUMMARY:Unit A4 Assessment
-UID:6a1c7329-111f-41ed-8d54-5fbb84378463@6a1c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/58037925287306066/58037925421519804
 DTEND:20231212T121500Z
 DTSTART:20231212T121500Z
 SUMMARY:Paper 1 - Intros and Conclusions
-UID:556ea8f8-e5a5-4679-81db-8a3ea8134e47@556e.org
+UID:68923d19-64ce-484c-97fa-efcc46cfc042@6892.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/58037925287306066/58037925421519804
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
+DTEND:20240114T080000Z
+DTSTART:20240114T080000Z
+SUMMARY:Unit A4 Assessment
+UID:0705991a-fd6d-47a9-9075-c9654ab7af7a@0705.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
 END:VEVENT
 END:VCALENDAR
