@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
+DTEND:20231214T224500Z
+DTSTART:20231214T224500Z
+SUMMARY:TicTacToe Development
+UID:706b85e3-5a10-4eae-90a5-aec83d5518c5@706b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
 DTEND:20231214T090000Z
 DTSTART:20231214T090000Z
 SUMMARY:Geometry and Trigonometry Test
-UID:3e7ad1da-5519-49df-87f4-18a349fc48d6@3e7a.org
+UID:92b77c29-de9e-44d1-8c43-8a6f0a0a91c6@92b7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
 END:VEVENT
 BEGIN:VEVENT
@@ -14,23 +22,15 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20240114T080000Z
 DTSTART:20240114T080000Z
 SUMMARY:Unit A4 Assessment
-UID:d45baef7-a41a-4831-91d3-ade000935497@d45b.org
+UID:de6c6503-38c5-41a8-8c5c-8bf6b8e7f40f@de6c.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
-DTEND:20231214T224500Z
-DTSTART:20231214T224500Z
-SUMMARY:TicTacToe Development
-UID:87863856-0c97-4ab1-9927-bef392ad2871@8786.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
 DTEND:20240114T080000Z
 DTSTART:20240114T080000Z
 SUMMARY:Kognity Assessment A2
-UID:b1ea15b3-d5ea-4b7c-88cf-7f44f969411f@b1ea.org
+UID:2265d526-a187-46af-8368-75f47d7e006c@2265.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
 END:VEVENT
 END:VCALENDAR
