@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-DTEND:20240114T080000Z
-DTSTART:20240114T080000Z
-SUMMARY:Unit A4 Assessment
-UID:03c372c0-c33a-4e76-982f-3bf9ca6d8a7a@03c3.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
-DTEND:20231214T090000Z
-DTSTART:20231214T090000Z
-SUMMARY:Geometry and Trigonometry Test
-UID:b2d3a636-d85f-430e-9212-1e3cf573a95b@b2d3.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
 DTEND:20231214T224500Z
 DTSTART:20231214T224500Z
 SUMMARY:TicTacToe Development
-UID:67809413-058d-4b41-8ce6-b01a702a5305@6780.org
+UID:ed3d97e4-c670-4e1d-a223-364bfae713ab@ed3d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,15 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20240114T080000Z
 DTSTART:20240114T080000Z
 SUMMARY:Kognity Assessment A2
-UID:374568ae-5e5a-4712-abfa-24dc706c5937@3745.org
+UID:5db8b11a-4196-4561-8860-f7d5e9decd6d@5db8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
+DTEND:20240114T080000Z
+DTSTART:20240114T080000Z
+SUMMARY:Unit A4 Assessment
+UID:ba61e7b1-7130-4850-aa49-91733a784b26@ba61.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
 END:VEVENT
 END:VCALENDAR
