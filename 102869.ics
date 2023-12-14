@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
+DTEND:20240114T080000Z
+DTSTART:20240114T080000Z
+SUMMARY:Kognity Assessment A2
+UID:f0a393cc-9316-4fcc-b450-4ddc6a4791d4@f0a3.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
+DTEND:20231214T224500Z
+DTSTART:20231214T224500Z
+SUMMARY:TicTacToe Development
+UID:c3519251-daab-472d-986d-1bef57f16048@c351.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
 DTEND:20240114T080000Z
 DTSTART:20240114T080000Z
 SUMMARY:Unit A4 Assessment
-UID:5e0ca3bb-d64c-4db3-b898-8f98f633fd7b@5e0c.org
+UID:ce896660-3b0a-486f-9d1b-2b03823d5ec5@ce89.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
 END:VEVENT
 BEGIN:VEVENT
@@ -14,23 +30,7 @@ DESCRIPTION:IBDP HL Math Analysis I\nhttps://web.toddleapp.com/platform/3716/tod
 DTEND:20231214T090000Z
 DTSTART:20231214T090000Z
 SUMMARY:Geometry and Trigonometry Test
-UID:bb884104-3832-48a8-94a5-fdb2b61667e8@bb88.org
+UID:a980e355-c99a-4eda-8660-36e241007cf6@a980.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/55906430829467855/55906430976263086
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
-DTEND:20231214T224500Z
-DTSTART:20231214T224500Z
-SUMMARY:TicTacToe Development
-UID:0fec5a1d-c79c-4645-b04e-a26881850e1e@0fec.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59150082099917386/59150082603228158
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
-DTEND:20240114T080000Z
-DTSTART:20240114T080000Z
-SUMMARY:Kognity Assessment A2
-UID:e9452f38-34e2-48b4-8875-b3d4a215569f@e945.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
 END:VEVENT
 END:VCALENDAR
