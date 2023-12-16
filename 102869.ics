@@ -2,35 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-DTEND:20240114T080000Z
-DTSTART:20240114T080000Z
-SUMMARY:Unit A4 Assessment
-UID:f5c5e1b0-2a06-4049-a6f6-5981a513ccc8@f5c5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
-DTEND:20240114T080000Z
-DTSTART:20240114T080000Z
-SUMMARY:Kognity Assessment A2
-UID:177a5126-8665-48ac-8f8e-c6393e54f7f1@177a.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/62019010983626675/62019011151404926
-DTEND:20240111T090000Z
-DTSTART:20240111T090000Z
-SUMMARY:Hausaufgaben
-UID:18cd98ba-0106-4115-af4c-b931f1430c5e@18cd.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/62019010983626675/62019011151404926
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/60917078315500107/60917078529424461
 DTEND:20240111T090000Z
 DTSTART:20240111T090000Z
 SUMMARY:Mündliche Prüfung Vorbereitung
-UID:43e5f27d-e34b-497b-af18-f2c8e6b86807@43e5.org
+UID:97c63a44-fcdc-44ff-922b-4ba524ed34a8@97c6.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/60917078315500107/60917078529424461
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +14,31 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20240109T073000Z
 DTSTART:20240109T073000Z
 SUMMARY:Poster CAS und Gesundheit
-UID:5bc572d0-77eb-4b5d-b450-62bed8005ef4@5bc5.org
+UID:49e5df8c-895e-4bb2-a988-9fe028d99662@49e5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/62019550786357179/62019550928969726
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
+DTEND:20240114T080000Z
+DTSTART:20240114T080000Z
+SUMMARY:Unit A4 Assessment
+UID:9bd0baf1-42d7-4dd9-bf64-65ee4aa5a1e5@9bd0.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59449173522515114/59449174189410942
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/62019010983626675/62019011151404926
+DTEND:20240111T090000Z
+DTSTART:20240111T090000Z
+SUMMARY:Hausaufgaben
+UID:1d3e468e-993c-4f84-803d-12852a0ee4e3@1d3e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/62019010983626675/62019011151404926
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
+DTEND:20240114T080000Z
+DTSTART:20240114T080000Z
+SUMMARY:Kognity Assessment A2
+UID:ea1e2e43-eddd-4be8-b893-fb27444006fe@ea1e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/59448442077840531/59448442526632162
 END:VEVENT
 END:VCALENDAR
