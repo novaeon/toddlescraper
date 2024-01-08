@@ -97,11 +97,15 @@ def scrape_toddle(MyUsername, MyPassword):
         assingment_data[i] = assingment_data[i] + (link,)
         driver.back()
         load_all_assignments()
-
+    
     def convert_date(input_date):
         without_day = input_date[input_date.find(',') + 1:].strip()
-        date = without_day[:without_day.find(',')]
-        time = without_day[without_day.find(',') + 1:].strip()
+        if input_date[:input_date.find(',')].strip() == 'Tomorrow':
+            date = datetime.today().strftime("%d %b %Y")
+            time = without_day
+        else:
+            date = without_day[:without_day.find(',')]
+            time = without_day[without_day.find(',') + 1:].strip()
         date_formatted = datetime.strptime(date, "%d %b %Y").strftime("%Y-%m-%d")
         if ":" in time:
             time_formatted = datetime.strptime(time, "%I:%M %p").strftime("%H:%M:%S")
