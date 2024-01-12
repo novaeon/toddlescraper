@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
 import os, sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from ics import Calendar, Event
 from pyvirtualdisplay import Display
 import os
@@ -98,9 +98,14 @@ def scrape_toddle(MyUsername, MyPassword):
         driver.back()
         load_all_assignments()
     
+    
     def convert_date(input_date):
         without_day = input_date[input_date.find(',') + 1:].strip()
         if input_date[:input_date.find(',')].strip() == 'Tomorrow':
+            date = datetime.today() + timedelta(days=1)
+            date = date.strftime("%d %b %Y")
+            time = without_day
+        elif input_date[:input_date.find(',')].strip() == 'Today':
             date = datetime.today().strftime("%d %b %Y")
             time = without_day
         else:
