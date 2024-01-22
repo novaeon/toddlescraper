@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:84cbb891-e7bc-41fa-981c-5ee10ec3b5af@84cb.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+DTEND:20240126T080000Z
+DTSTART:20240126T080000Z
+SUMMARY:Unit B Asssessment 1
+UID:1acdd185-7965-4d46-8f34-4f3403025bd6@1acd.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/62019550786357179/62019550928969726
 DTEND:20240123T073000Z
 DTSTART:20240123T073000Z
 SUMMARY:SL Poster CAS
-UID:29e96ad9-650c-4641-a030-7501f92e32a5@29e9.org
+UID:d36d1eb3-1430-476a-9f8e-e72288d1678b@d36d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/62019550786357179/62019550928969726
 END:VEVENT
 BEGIN:VEVENT
@@ -14,31 +30,15 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20240124T093000Z
 DTSTART:20240124T093000Z
 SUMMARY:Read & Annotate "On the Steps of the Palace" + Write Comparative Paragraph
-UID:d61b16da-24fb-4a5a-b0ea-1757cce8da93@d61b.org
+UID:62a0cd01-803f-4284-9eae-e9c318813d80@62a0.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:bdf1174e-7f3f-444d-b278-dafa6062c4f2@bdf1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/71830614910706291/71830615158162526
 DTEND:20240123T080000Z
 DTSTART:20240123T080000Z
 SUMMARY:2.8c - Market failure - positive externalities notes quiz
-UID:523baeb5-649c-41fd-a2f5-f0ad22b8a83f@523b.org
+UID:9fcdd9f2-3327-4c5e-8313-6c37144972eb@9fcd.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/71830614910706291/71830615158162526
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-DTEND:20240126T080000Z
-DTSTART:20240126T080000Z
-SUMMARY:Unit B Asssessment 1
-UID:fba706be-69cc-4d72-80df-9b09f87a4829@fba7.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
 END:VEVENT
 END:VCALENDAR
