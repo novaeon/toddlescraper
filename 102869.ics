@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240124T093000Z
-DTSTART:20240124T093000Z
-SUMMARY:Read & Annotate "On the Steps of the Palace" + Write Comparative Paragraph
-UID:ab572eef-bb37-4ed4-b4ca-3b45edd89608@ab57.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
-DTEND:20240125T090000Z
-DTSTART:20240125T090000Z
-SUMMARY:Hausaufgaben
-UID:f1ef3870-07ae-4f00-9f55-5ff57bdb7c6c@f1ef.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:6abcfc45-c2c4-41b9-ba21-aba394b4c65a@6abc.org
+UID:7c69cb17-58cc-463c-a778-29fcaa798ae5@7c69.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,23 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20240126T080000Z
 DTSTART:20240126T080000Z
 SUMMARY:Unit B Asssessment 1
-UID:32307ee9-cc6e-42f5-8ef5-089ffaa1a807@3230.org
+UID:d1bcd8b0-f82d-4a64-954d-c1b93dcd1da1@d1bc.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DTEND:20240124T093000Z
+DTSTART:20240124T093000Z
+SUMMARY:Read & Annotate "On the Steps of the Palace" + Write Comparative Paragraph
+UID:fcb71935-869d-4ac1-bf95-b4fa4eca10c8@fcb7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+DTEND:20240125T090000Z
+DTSTART:20240125T090000Z
+SUMMARY:Hausaufgaben
+UID:df6eba25-be0a-4743-9598-e99f2a8b1309@df6e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
 END:VEVENT
 END:VCALENDAR
