@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+DTEND:20240126T080000Z
+DTSTART:20240126T080000Z
+SUMMARY:Unit B Asssessment 1
+UID:b4a2a348-f10a-4d3f-9e36-005e978a1825@b4a2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+DTEND:20240125T090000Z
+DTSTART:20240125T090000Z
+SUMMARY:Hausaufgaben
+UID:62b305e5-dae7-4a72-9d2a-590c3e22af4b@62b3.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:abb24822-15d5-47c9-b657-6c7c596ad35b@abb2.org
+UID:68c42979-64a6-4f1a-a873-3b12e56fab3e@68c4.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
@@ -14,23 +30,7 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20240124T093000Z
 DTSTART:20240124T093000Z
 SUMMARY:Read & Annotate "On the Steps of the Palace" + Write Comparative Paragraph
-UID:ce6ff94a-eea0-4489-b464-b99187982d7c@ce6f.org
+UID:b40e0d10-122f-4cfc-b3aa-0856957dc098@b40e.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
-DTEND:20240125T090000Z
-DTSTART:20240125T090000Z
-SUMMARY:Hausaufgaben
-UID:0267728a-a173-495d-b245-ae2fc77f5099@0267.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-DTEND:20240126T080000Z
-DTSTART:20240126T080000Z
-SUMMARY:Unit B Asssessment 1
-UID:3d231268-1d61-4860-ae06-120b3345ec00@3d23.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
 END:VEVENT
 END:VCALENDAR
