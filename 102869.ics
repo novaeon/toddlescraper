@@ -2,35 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:f8e22662-2e9d-44f2-ae23-c30bfa765600@f8e2.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-DTEND:20240126T080000Z
-DTSTART:20240126T080000Z
-SUMMARY:Unit B Asssessment 1
-UID:7b1c0ba7-b2de-4d66-aac7-ece672cee7e8@7b1c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240124T093000Z
-DTSTART:20240124T093000Z
-SUMMARY:Read & Annotate "On the Steps of the Palace" + Write Comparative Paragraph
-UID:804e145d-a77a-4a12-a5ad-2d222a3247b8@804e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:4a3f30f0-f8c6-4220-9721-404a33acb3a7@4a3f.org
+UID:eff7a2df-2380-44da-9ad4-9980330bf258@eff7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +14,23 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20240125T090000Z
 DTSTART:20240125T090000Z
 SUMMARY:Hausaufgaben
-UID:64059596-cca8-4e85-9421-a990fee08ea4@6405.org
+UID:97a768c6-6f07-499c-8cc1-0d2e1c4244c1@97a7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:bffb1ea3-a79f-44b8-a0af-5aaafd89cb41@bffb.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+DTEND:20240126T080000Z
+DTSTART:20240126T080000Z
+SUMMARY:Unit B Asssessment 1
+UID:9924bf7b-5cfa-4245-a44d-e44bf26ebfa0@9924.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
 END:VEVENT
 END:VCALENDAR
