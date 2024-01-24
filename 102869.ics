@@ -2,35 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
-DTEND:20240125T090000Z
-DTSTART:20240125T090000Z
-SUMMARY:Medien im Alltag
-UID:c7719535-58f3-4cd2-b4c4-1707ee47c04f@c771.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-DTEND:20240126T080000Z
-DTSTART:20240126T080000Z
-SUMMARY:Unit B Asssessment 1
-UID:33387682-1db3-4ff3-9b03-0c1b595055bf@3338.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:df956781-f0af-4f8c-9fff-141b569c7e8b@df95.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
 DTEND:20240125T090000Z
 DTSTART:20240125T090000Z
 SUMMARY:Hausaufgaben
-UID:f4f0ca48-4fec-4af7-86e5-d723f65e59fb@f4f0.org
+UID:ba507d45-8bfe-4a66-bef1-0d34877918ee@ba50.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +14,7 @@ DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/cl
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:a5a3ba51-b505-4a45-808c-af41c27eb712@a5a3.org
+UID:efe5590b-df81-41c5-ab1b-827afedf0c90@efe5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +22,31 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20240126T100000Z
 DTSTART:20240126T100000Z
 SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:54479294-8013-41c3-b440-c186d98f044f@5447.org
+UID:a2e91fec-fc45-436e-9083-6d590b444806@a2e9.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:08505b0f-cf2e-478f-9d6a-749469ec665f@0850.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+DTEND:20240126T080000Z
+DTSTART:20240126T080000Z
+SUMMARY:Unit B Asssessment 1
+UID:b5b385b6-5e47-4c0f-8eb1-52ee3e56be42@b5b3.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
+DTEND:20240125T090000Z
+DTSTART:20240125T090000Z
+SUMMARY:Medien im Alltag
+UID:d453a268-b618-44af-bae3-ac01262892b6@d453.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
 END:VEVENT
 END:VCALENDAR
