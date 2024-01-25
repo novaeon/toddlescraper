@@ -2,35 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
-DTEND:20240125T090000Z
-DTSTART:20240125T090000Z
-SUMMARY:Medien im Alltag
-UID:ffddf0f8-e6a5-47bf-903a-c122d52ee697@ffdd.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:0ec19cb2-4368-4260-a40a-d92a9fed8158@0ec1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
-DTEND:20240125T090000Z
-DTSTART:20240125T090000Z
-SUMMARY:Hausaufgaben
-UID:36b88cd6-e79f-4e6c-afef-6f1edc92e6e3@36b8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DTEND:20240126T100000Z
+DTSTART:20240126T100000Z
+SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
+UID:69510653-8625-4b48-a3df-790c45bad429@6951.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:b739d964-e556-495e-829c-492255f4c4bb@b739.org
+UID:e61d180e-9bf5-44c2-9658-d4cb3e2b6611@e61d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +22,31 @@ DESCRIPTION:IBDP Physics I\nhttps://web.toddleapp.com/platform/3716/todos/classr
 DTEND:20240126T080000Z
 DTSTART:20240126T080000Z
 SUMMARY:Unit B Asssessment 1
-UID:d4325165-649b-4191-89bf-48b72f2f787d@d432.org
+UID:0723c81a-0561-4860-a403-419e13235a2d@0723.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/72199153614076567/72199153744090344
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240126T100000Z
-DTSTART:20240126T100000Z
-SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:a125b0a1-1933-4228-80a8-f803115e283c@a125.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+DTEND:20240125T090000Z
+DTSTART:20240125T090000Z
+SUMMARY:Hausaufgaben
+UID:0db47139-3360-4075-b66d-60a9eb7f728a@0db4.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76611291048852133/76611291166287828
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:49c2394d-7501-41a9-95ea-9f39fd8cdfd4@49c2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
+DTEND:20240125T090000Z
+DTSTART:20240125T090000Z
+SUMMARY:Medien im Alltag
+UID:1f83a3e2-91ab-4ef1-8713-b387d174c3b7@1f83.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76992254350203111/76992254471839403
 END:VEVENT
 END:VCALENDAR
