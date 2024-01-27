@@ -2,11 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
+DTEND:20240130T121500Z
+DTSTART:20240130T121500Z
+SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
+UID:cf151d79-54a4-4d5e-b9d2-47177bc7145e@cf15.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:e6282143-2e37-4061-97a9-9a0e4c85b7d0@e628.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:8a7f9825-3f55-4c9a-8d51-e3ce65cab423@8a7f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+DTEND:20240129T101500Z
+DTSTART:20240129T101500Z
+SUMMARY:Im Netz sein
+UID:47859378-bf38-43e0-a472-936c17c22415@4785.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
 DTEND:20240130T121500Z
 DTSTART:20240130T121500Z
 SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:7cd59d99-5a95-46e1-b4de-ef3b0e360c56@7cd5.org
+UID:c7a77168-0247-4766-8de7-b7e2142fc8c4@c7a7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
 END:VEVENT
 BEGIN:VEVENT
@@ -14,39 +46,7 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20240129T101500Z
 DTSTART:20240129T101500Z
 SUMMARY:Hausaufgaben
-UID:c6391781-103b-43d1-aef2-6eba62f335f4@c639.org
+UID:41237a15-f3a7-4b9c-ae5f-d61a72dc4507@4123.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
-DTEND:20240129T101500Z
-DTSTART:20240129T101500Z
-SUMMARY:Im Netz sein
-UID:172ef88d-0490-46e6-ad6c-8870c412c936@172e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:ec6a9cbf-4083-4dd2-9afa-69b87b277541@ec6a.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
-DTEND:20240130T121500Z
-DTSTART:20240130T121500Z
-SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
-UID:a5065cf9-12b5-42fe-a836-e56e097ca689@a506.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:b0a19f63-9ff7-426e-86c3-1b251871bdc8@b0a1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 END:VCALENDAR
