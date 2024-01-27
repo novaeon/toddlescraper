@@ -2,27 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
 DTEND:20240129T101500Z
 DTSTART:20240129T101500Z
-SUMMARY:Im Netz sein
-UID:d63499cd-957f-458c-930d-1ebcb2f33745@d634.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+SUMMARY:Hausaufgaben
+UID:64b720a7-0fed-47e2-9057-3f9976a7a1dd@64b7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 DTEND:20240130T121500Z
 DTSTART:20240130T121500Z
 SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
-UID:186d65e7-27c8-447b-9677-490304a7e4da@186d.org
+UID:d98394e5-f835-4347-b602-6c0d50473a3a@d983.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+DTEND:20240129T101500Z
+DTSTART:20240129T101500Z
+SUMMARY:Im Netz sein
+UID:7d3f71f6-d9f2-4c5d-ab4c-93e19940568e@7d3f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DTEND:20240130T121500Z
+DTSTART:20240130T121500Z
+SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
+UID:567ac98b-c68c-4eec-bc63-c637e0cbf36d@567a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:e74f87f0-ac16-4b6f-ad71-5a4cb20bd480@e74f.org
+UID:011ebe12-f56d-435b-a6c0-3a6874f035ee@011e.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 BEGIN:VEVENT
@@ -30,23 +46,7 @@ DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/tod
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:49539514-4a46-41c4-8f56-c88dac350b43@4953.org
+UID:788ae6d4-77cd-4419-a96b-276bbd6d40d5@788a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-DTEND:20240129T101500Z
-DTSTART:20240129T101500Z
-SUMMARY:Hausaufgaben
-UID:1794e1db-d468-49c1-9a90-476eb6c94d39@1794.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240130T121500Z
-DTSTART:20240130T121500Z
-SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:5c143b34-c068-4322-8a26-0c5b63386a21@5c14.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
 END:VEVENT
 END:VCALENDAR
