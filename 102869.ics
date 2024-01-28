@@ -2,27 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240130T121500Z
-DTSTART:20240130T121500Z
-SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:41b8177b-b8d0-407f-ad4f-c9e688ffd754@41b8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
 DTEND:20240129T101500Z
 DTSTART:20240129T101500Z
 SUMMARY:Im Netz sein
-UID:eee0c985-93ef-4a0c-93d4-7fde4a72ddc0@eee0.org
+UID:1bc0469e-92c8-4286-8219-8b82ff5030ff@1bc0.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:619e0bbe-8c37-4580-8e53-499d642471fd@619e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DTEND:20240130T121500Z
+DTSTART:20240130T121500Z
+SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
+UID:377b85f6-a6fe-47bc-8c61-8d7722bdf292@377b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
+DTEND:20240130T121500Z
+DTSTART:20240130T121500Z
+SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
+UID:4f4cd144-51e2-48e8-85e9-91d469a9b11c@4f4c.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:d36acfa5-3397-4ba7-b6bd-c8ac625558e8@d36a.org
+UID:ce6bb496-84bd-4f04-b34f-eca0deb24960@ce6b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
@@ -30,23 +46,7 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20240129T101500Z
 DTSTART:20240129T101500Z
 SUMMARY:Hausaufgaben
-UID:8e546267-957b-4416-8f08-42c10c2c3484@8e54.org
+UID:5b214e21-bcac-422b-8270-36e2fe16fbfd@5b21.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:d096818d-2f6e-46b8-b1e0-a7f639d9db68@d096.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
-DTEND:20240130T121500Z
-DTSTART:20240130T121500Z
-SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
-UID:7838e2e2-7f43-4d6b-8e34-416a4e734e2a@7838.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 END:VEVENT
 END:VCALENDAR
