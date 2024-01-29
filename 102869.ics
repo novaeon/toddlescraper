@@ -2,43 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:04a24267-5314-49e6-bb64-ccc953e10bc8@04a2.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-DTEND:20240129T101500Z
-DTSTART:20240129T101500Z
-SUMMARY:Hausaufgaben
-UID:fef90e88-0220-4fc1-8d34-d928b4472e64@fef9.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:b905e2fb-4191-4e99-95ea-3e642d98bc30@b905.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
-DTEND:20240129T101500Z
-DTSTART:20240129T101500Z
-SUMMARY:Im Netz sein
-UID:7427fb75-1fcf-444e-9b4a-fa3a15955c0e@7427.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 DTEND:20240130T121500Z
 DTSTART:20240130T121500Z
 SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
-UID:0f09c1e5-e3ac-4b9c-b401-5f5235daca32@0f09.org
+UID:90ad91e9-c53b-461a-837a-d97adf1208ed@90ad.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +14,39 @@ DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3
 DTEND:20240130T121500Z
 DTSTART:20240130T121500Z
 SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:64e86f10-4972-4923-9705-7c8b562e6e0f@64e8.org
+UID:4d24026a-aebe-4131-a4c7-2cd068059318@4d24.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:a2d21138-2e88-4e8b-8209-2093532e61b2@a2d2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:6e0d9ca8-ff83-4b4a-8b37-fcfa7d8d8405@6e0d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
+DTEND:20240129T101500Z
+DTSTART:20240129T101500Z
+SUMMARY:Hausaufgaben
+UID:ab3cd471-5006-4c50-b682-f87a3cd1a489@ab3c.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77364235130122618/77364235276923392
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
+DTEND:20240129T101500Z
+DTSTART:20240129T101500Z
+SUMMARY:Im Netz sein
+UID:7fb5eaa9-7da4-4f00-a139-af9301028550@7fb5.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78015826619270399/78015826774468835
 END:VEVENT
 END:VCALENDAR
