@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DTEND:20240130T121500Z
+DTSTART:20240130T121500Z
+SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
+UID:c460dc85-2e0b-40d7-9178-e97b6b9703df@c460.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:99ce321c-c29e-4dcb-bd28-3a2be127227f@99ce.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 DTEND:20240130T121500Z
 DTSTART:20240130T121500Z
 SUMMARY:Read\, Annotate\, and Be Prepared to Teach Assigned Song
-UID:54654738-74bc-4e37-9ac2-ae6b1d92d638@5465.org
+UID:9aa55021-3f47-4a4e-be31-7b8dc6612bec@9aa5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/77619249807375657/77619250138722021
 END:VEVENT
 BEGIN:VEVENT
@@ -14,47 +30,31 @@ DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/class
 DTEND:20240131T123000Z
 DTSTART:20240131T123000Z
 SUMMARY:Hausaufgaben
-UID:260fa9f7-579b-47e9-93f1-02f1f1b239ad@260f.org
+UID:075623c7-b06f-4515-a22c-a5478c018e61@0756.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:58b29609-c0d6-4131-9804-69f02f077e86@58b2.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
-DTEND:20240202T080000Z
-DTSTART:20240202T080000Z
-SUMMARY:2.7-2.9 Market failure commentary outline
-UID:749e75c2-8a4c-4d8c-b2ad-7fe7351940d0@749e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:52d5162a-d077-48ac-a369-87a3b45fc312@52d5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-2.9 Market failure commentary writing practice
-UID:6a6b642d-7139-485d-b66d-8e1632a8a0ac@6a6b.org
+UID:6dd10d79-c266-4632-8213-db547344c79f@6dd1.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
-DTEND:20240130T121500Z
-DTSTART:20240130T121500Z
-SUMMARY:Read & Annotate "Prologue I: Into the Woods" + "Ever After" OR "Prologue II: So Happy" + Write Comparative Paragraph
-UID:9b33ce2f-fbe9-4115-a431-7e70a144e73b@9b33.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76105133938707091/76105184031289712
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
+DTEND:20240202T080000Z
+DTSTART:20240202T080000Z
+SUMMARY:2.7-2.9 Market failure commentary outline
+UID:8df28b9f-6b47-4068-8153-271b29a1104a@8df2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:fbd0934e-400a-469c-b4db-8572fdda0b96@fbd0.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 END:VCALENDAR
