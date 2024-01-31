@@ -2,35 +2,51 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
-DTEND:20240131T123000Z
-DTSTART:20240131T123000Z
-SUMMARY:Hausaufgaben
-UID:f2859ffb-6859-4b88-bfda-ff030a240f1f@f285.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
 DTEND:20240202T080000Z
 DTSTART:20240202T080000Z
 SUMMARY:2.7-2.9 Market failure commentary outline
-UID:1edf5195-f851-43a8-a6b7-3534705657f9@1edf.org
+UID:09a46d9a-cf93-4ff3-bd94-9245116cbc08@09a4.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
+DTEND:20240201T143000Z
+DTSTART:20240201T143000Z
+SUMMARY:Brainstorming and Outlining
+UID:e62b5586-ade9-4e3d-9e67-d7676f3daac2@e62b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:df8e0cff-cddd-4a10-aa14-bebd73c3d943@df8e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79163621808016426/79163621925458950
 DTEND:20240131T123000Z
 DTSTART:20240131T123000Z
 SUMMARY:Umgang mit Sozialen Medien
-UID:8e0bf190-2c60-46a8-b7c6-9d7ad9e31240@8e0b.org
+UID:8e05222b-f725-41b5-97a1-5a77571500ba@8e05.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79163621808016426/79163621925458950
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
+DTEND:20240131T123000Z
+DTSTART:20240131T123000Z
+SUMMARY:Hausaufgaben
+UID:c3cd2e00-505d-4f1e-ba8f-23fd32577242@c3cd.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:aef5a294-c1b7-4339-94a7-2be0ed8f7693@aef5.org
+UID:65e385c9-3c6e-4964-9687-9205ae076ca7@65e3.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 END:VEVENT
 BEGIN:VEVENT
@@ -38,23 +54,7 @@ DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/cl
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-2.9 Market failure commentary writing practice
-UID:aa93a831-ddb5-4aa0-a3e4-38ad657fafb6@aa93.org
+UID:7120a111-c083-4ef8-b724-83e683f088be@7120.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:f6ae0acf-1594-44db-a13e-06642df797ca@f6ae.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
-DTEND:20240201T143000Z
-DTSTART:20240201T143000Z
-SUMMARY:Brainstorming and Outlining
-UID:205171be-533e-429f-8811-1d4ac2157349@2051.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
 END:VEVENT
 END:VCALENDAR
