@@ -2,19 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
+DTEND:20240131T123000Z
+DTSTART:20240131T123000Z
+SUMMARY:Hausaufgaben
+UID:e9fb1a2e-d423-4b4c-9dba-9d4b4ea3b41d@e9fb.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:81c79f2c-6955-4bc4-87fa-9b615d8fd50f@81c7.org
+UID:e73fe8db-d0f3-4431-a9a0-c03f8781aced@e73f.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
+DTEND:20240201T143000Z
+DTSTART:20240201T143000Z
+SUMMARY:Brainstorming and Outlining
+UID:5267fb29-01ba-4acf-8805-27e316c7a957@5267.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
+DTEND:20240206T080000Z
+DTSTART:20240206T080000Z
+SUMMARY:2.7-2.9 Market failure commentary writing practice
+UID:a8502d76-eb0a-4ee9-a61e-739161cf22b4@a850.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79163621808016426/79163621925458950
 DTEND:20240131T123000Z
 DTSTART:20240131T123000Z
 SUMMARY:Umgang mit Sozialen Medien
-UID:5aab6a77-3c71-41c6-913b-6bee4cc78365@5aab.org
+UID:13c2f994-8c29-4870-a521-d09577201faf@13c2.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79163621808016426/79163621925458950
 END:VEVENT
 BEGIN:VEVENT
@@ -22,39 +46,15 @@ DESCRIPTION:IBDP Computer Science I\nhttps://web.toddleapp.com/platform/3716/tod
 DTEND:20240205T080000Z
 DTSTART:20240205T080000Z
 SUMMARY:Sort Algorithms Presentation
-UID:3997cc27-9668-4999-ba48-d1775dc469e4@3997.org
+UID:9fd82d23-cf98-4c36-bec9-fb370bd3d154@9fd8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
-DTEND:20240206T080000Z
-DTSTART:20240206T080000Z
-SUMMARY:2.7-2.9 Market failure commentary writing practice
-UID:499ca542-510d-4176-9387-95264803c7c5@499c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
-DTEND:20240131T123000Z
-DTSTART:20240131T123000Z
-SUMMARY:Hausaufgaben
-UID:0d539f13-43b7-40a9-a8d9-f41b5cec0c87@0d53.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78782240259059285/78782240401662212
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
-DTEND:20240201T143000Z
-DTSTART:20240201T143000Z
-SUMMARY:Brainstorming and Outlining
-UID:1476515a-fdab-4f5b-8a7b-082dd1a86448@1476.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\nhttps://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
 DTEND:20240202T080000Z
 DTSTART:20240202T080000Z
 SUMMARY:2.7-2.9 Market failure commentary outline
-UID:b7847ed6-fac5-46c5-bd05-44f3ac732582@b784.org
+UID:579f2a39-076d-42c8-ad40-2c21ad5141ba@579f.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700416753215169/78700450278286264
 END:VEVENT
 END:VCALENDAR
