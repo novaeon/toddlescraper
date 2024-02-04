@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416">Link</a>
-DTEND:20240206T073000Z
-DTSTART:20240206T073000Z
-SUMMARY:Hausaufgaben
-UID:11cfe923-c0b5-49b2-95e4-bc419a49dbbe@11cf.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
 DTEND:20240213T080000Z
 DTSTART:20240213T080000Z
 SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:7aa22066-a28f-46fc-af4e-2d2d7f215baf@7aa2.org
+UID:b75f065f-6d2a-4e68-bd36-ea31fff1f43a@b75f.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +14,7 @@ DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716
 DTEND:20240206T080000Z
 DTSTART:20240206T080000Z
 SUMMARY:2.7-2.9 Market failure commentary writing practice
-UID:8a727560-11f0-48ac-b0e7-3d0592e7e016@8a72.org
+UID:4c6d6c98-71d7-46a2-9bcc-e32cc075411c@4c6d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/78700811831486151/78700811974091791
 END:VEVENT
 BEGIN:VEVENT
@@ -30,31 +22,39 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240215T132500Z
 DTSTART:20240215T132500Z
 SUMMARY:Paper 2
-UID:b26baabc-fa28-4010-9033-dccf7f9a3715@b26b.org
+UID:74b0c5c5-28ca-495b-a8f8-ed80190cf4f2@74b0.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334">Link</a>
-DTEND:20240205T073000Z
-DTSTART:20240205T073000Z
-SUMMARY:Paper 2 - Outline + Introduction
-UID:34c9efec-75d7-4fc3-8ea4-f5837a1d368d@34c9.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088">Link</a>
-DTEND:20240205T080000Z
-DTSTART:20240205T080000Z
-SUMMARY:Sort Algorithms Presentation
-UID:8af05548-ace4-4119-9990-3edc81a64791@8af0.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416">Link</a>
+DTEND:20240206T073000Z
+DTSTART:20240206T073000Z
+SUMMARY:Hausaufgaben
+UID:9a95928a-4f29-48af-8a3d-0df3554bef2d@9a95.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850">Link</a>
 DTEND:20240208T080000Z
 DTSTART:20240208T080000Z
 SUMMARY:2.7-9 market failure / government intervention exam
-UID:feff21ea-64ea-449e-a06f-9896fd77e276@feff.org
+UID:79cdab8c-e949-46c0-9bd7-709bc091d30b@79cd.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088">Link</a>
+DTEND:20240205T080000Z
+DTSTART:20240205T080000Z
+SUMMARY:Sort Algorithms Presentation
+UID:4f409289-157d-4c0d-83da-ef5e6ccd4e21@4f40.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76158718286238355/76158718584044088
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334">Link</a>
+DTEND:20240205T073000Z
+DTSTART:20240205T073000Z
+SUMMARY:Paper 2 - Outline + Introduction
+UID:b4cc8413-e1d6-42b5-a7a7-dd85f710425a@b4cc.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79024859732000525/79024859962685334
 END:VEVENT
 END:VCALENDAR
