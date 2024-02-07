@@ -2,11 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
+DTEND:20240215T132500Z
+DTSTART:20240215T132500Z
+SUMMARY:Paper 2
+UID:4c824fbc-6cdd-4222-a1eb-3cf96496782a@4c82.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416">Link</a>
+DTEND:20240208T090000Z
+DTSTART:20240208T090000Z
+SUMMARY:Hausaufgaben
+UID:242d83cf-2b04-4f93-b9e9-ef26202db15e@242d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850">Link</a>
+DTEND:20240208T080000Z
+DTSTART:20240208T080000Z
+SUMMARY:2.7-9 market failure / government intervention exam
+UID:9a2df246-3ba0-4250-b82a-5e88b179420d@9a2d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
 DTEND:20240213T080000Z
 DTSTART:20240213T080000Z
 SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:3c6fe17b-2fe8-454f-ae07-aa87b32854c0@3c6f.org
+UID:96cd18a2-d7ce-4856-be4d-205e1da64954@96cd.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
 END:VEVENT
 BEGIN:VEVENT
@@ -14,31 +38,7 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240207T093000Z
 DTSTART:20240207T093000Z
 SUMMARY:Paper 2 Body Paragraphs
-UID:35f7931e-6306-47d3-9ec4-9b12c2fc3b9e@35f7.org
+UID:306a7a44-2b8b-4718-96de-79b5fb506b5c@306a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/81174004802531853/81174050562390371
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
-DTEND:20240215T132500Z
-DTSTART:20240215T132500Z
-SUMMARY:Paper 2
-UID:16548c34-f66c-4b07-a42f-197b35ffa551@1654.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850">Link</a>
-DTEND:20240208T080000Z
-DTSTART:20240208T080000Z
-SUMMARY:2.7-9 market failure / government intervention exam
-UID:4f759308-cf80-4635-acae-0cbc63d74169@4f75.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/76813986460337334/76813990180688850
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416">Link</a>
-DTEND:20240208T090000Z
-DTSTART:20240208T090000Z
-SUMMARY:Hausaufgaben
-UID:3fbe083a-0057-4ef8-b34c-8cdbfc401b53@3fbe.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416
 END:VEVENT
 END:VCALENDAR
