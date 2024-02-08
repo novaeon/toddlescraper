@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
+DTEND:20240215T132500Z
+DTSTART:20240215T132500Z
+SUMMARY:Paper 2
+UID:adab2062-200c-45a1-a795-4ace7a1365d9@adab.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
 DTEND:20240213T080000Z
 DTSTART:20240213T080000Z
 SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:3f21f9b9-a9c4-4a25-bdce-5ce2dd8e3938@3f21.org
+UID:f3812586-1a64-4c2c-88e8-62437c557623@f381.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
 END:VEVENT
 BEGIN:VEVENT
@@ -14,15 +22,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240214T123000Z
 DTSTART:20240214T123000Z
 SUMMARY:Hausaufgaben
-UID:21b2260b-97c7-4d56-901f-2147e5781cb4@21b2.org
+UID:92f1e58d-d525-42d2-a6db-75ba32c62b6b@92f1.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
-DTEND:20240215T132500Z
-DTSTART:20240215T132500Z
-SUMMARY:Paper 2
-UID:c5085c4c-c9b6-415a-9f6c-9c9e8a38d824@c508.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 END:VCALENDAR
