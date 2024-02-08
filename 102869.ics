@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
+DTEND:20240213T080000Z
+DTSTART:20240213T080000Z
+SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
+UID:5ccc8d5a-d226-4d7a-ac45-c1941c2f1cef@5ccc.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
 DTEND:20240215T132500Z
 DTSTART:20240215T132500Z
 SUMMARY:Paper 2
-UID:87621bf4-994a-4cfd-a3fd-f142d4d52e67@8762.org
+UID:dd7ae23f-22fd-472b-b9cf-1f42bed0697f@dd7a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 BEGIN:VEVENT
@@ -14,7 +22,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240208T090000Z
 DTSTART:20240208T090000Z
 SUMMARY:Chancen und Risiken in SN
-UID:838d36c9-1488-4b13-964c-a82823bccc25@838d.org
+UID:e9b88420-d398-4883-9398-e8cc750dd1d7@e9b8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82051659370348035/82051659529717964
 END:VEVENT
 BEGIN:VEVENT
@@ -22,15 +30,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240208T090000Z
 DTSTART:20240208T090000Z
 SUMMARY:Hausaufgaben
-UID:dbd627e1-2b36-4d72-a28c-bab6bca1a4bd@dbd6.org
+UID:e0539664-2fdb-4669-8fb6-531d05abd13a@e053.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79470905654256533/79470905826222416
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
-DTEND:20240213T080000Z
-DTSTART:20240213T080000Z
-SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:4511a49b-49ba-40ae-bd80-09e17f45d22d@4511.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
 END:VEVENT
 END:VCALENDAR
