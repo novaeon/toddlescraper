@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767">Link</a>
-DTEND:20240212T101500Z
-DTSTART:20240212T101500Z
-SUMMARY:P2 Hörverstehen
-UID:b00e7bb6-f2cd-4a1b-aca4-43e59bd25c1a@b00e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
-DTEND:20240213T080000Z
-DTSTART:20240213T080000Z
-SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:4da099c0-2450-44e3-b784-c2c1149ce627@4da0.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
 DTEND:20240215T132500Z
 DTSTART:20240215T132500Z
 SUMMARY:Paper 2
-UID:fbc02d0e-a777-47c8-87a5-1a9639c9d57f@fbc0.org
+UID:afa9b9f5-d25f-46c1-aa18-6ea56cfe7d8b@afa9.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,23 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240214T123000Z
 DTSTART:20240214T123000Z
 SUMMARY:Hausaufgaben
-UID:236ff56b-253b-4180-8dc2-44fd74c58dcb@236f.org
+UID:7bbbdb17-81e9-4d29-a3ca-da0fb04daa98@7bbb.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255">Link</a>
+DTEND:20240213T080000Z
+DTSTART:20240213T080000Z
+SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
+UID:3e0f2a80-4bd5-406c-ada1-197b70c720a1@3e0f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767">Link</a>
+DTEND:20240212T101500Z
+DTSTART:20240212T101500Z
+SUMMARY:P2 Hörverstehen
+UID:8e4336aa-5146-4c9f-a75a-2072bcf86aad@8e43.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767
 END:VEVENT
 END:VCALENDAR
