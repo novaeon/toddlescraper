@@ -2,27 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846">Link</a>
-DTEND:20240226T080000Z
-DTSTART:20240226T080000Z
-SUMMARY:Programming the Battleship Game with CodeHS
-UID:1f0f0f5d-5812-453e-950a-d03a46bd1977@1f0f.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463">Link</a>
 DTEND:20240214T123000Z
 DTSTART:20240214T123000Z
 SUMMARY:Hausaufgaben
-UID:62120642-6bca-4b43-b0e4-be071f8c73e4@6212.org
+UID:7fd559be-48d2-4a4a-98d6-665c51cb364c@7fd5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846">Link</a>
+DTEND:20240226T080000Z
+DTSTART:20240226T080000Z
+SUMMARY:Programming the Battleship Game with CodeHS
+UID:af222e67-9d0c-4576-acc9-a2eed858c250@af22.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
+DTEND:20240215T132500Z
+DTSTART:20240215T132500Z
+SUMMARY:Paper 2
+UID:6ba4343f-e188-40c2-aab6-8f0eaf355caa@6ba4.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767">Link</a>
 DTEND:20240212T101500Z
 DTSTART:20240212T101500Z
 SUMMARY:P2 Hörverstehen
-UID:41a85f09-c544-494f-a67d-8daad8642de3@41a8.org
+UID:410b3ef0-58e5-425f-9d99-b2ceea84fe18@410b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82623386324311978/82623386705987767
 END:VEVENT
 BEGIN:VEVENT
@@ -30,15 +38,7 @@ DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716
 DTEND:20240213T080000Z
 DTSTART:20240213T080000Z
 SUMMARY:2.7-2.9 HL P3 market failure / government intervention exam
-UID:32c75661-546d-48e0-bfa0-deade9a22916@32c7.org
+UID:f264c429-6a6e-4048-a378-3add1d7ca366@f264.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/79451050649592317/79451050792192255
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
-DTEND:20240215T132500Z
-DTSTART:20240215T132500Z
-SUMMARY:Paper 2
-UID:67bb9b21-704b-4bce-8780-ec51ba511c24@67bb.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
 END:VEVENT
 END:VCALENDAR
