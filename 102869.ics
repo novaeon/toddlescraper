@@ -2,11 +2,51 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83409419261458181/83409419399859266">Link</a>
+DTEND:20240213T101500Z
+DTSTART:20240213T101500Z
+SUMMARY:Tuesday 13 February
+UID:64fe30a8-99b4-4e3e-b8d2-8bc46c647fd0@64fe.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83409419261458181/83409419399859266
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846">Link</a>
+DTEND:20240226T080000Z
+DTSTART:20240226T080000Z
+SUMMARY:Programming the Battleship Game with CodeHS
+UID:0b605557-97ef-45c6-8a22-a5ef65e55aac@0b60.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
+DTEND:20240215T132500Z
+DTSTART:20240215T132500Z
+SUMMARY:Paper 2
+UID:c34dc329-9797-4737-b930-aa50247c62d9@c34d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463">Link</a>
+DTEND:20240214T123000Z
+DTSTART:20240214T123000Z
+SUMMARY:Hausaufgaben
+UID:a38bbaba-e71f-4a53-81ed-9c9fea53adf0@a38b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83425459416610809/83425459743759474">Link</a>
+DTEND:20240301T083000Z
+DTSTART:20240301T083000Z
+SUMMARY:B5: Electricity
+UID:5c442d88-6c44-4aa4-9906-c1d19161822f@5c44.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83425459416610809/83425459743759474
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83421290618173380/83421290861435197">Link</a>
 DTEND:20240215T113000Z
 DTSTART:20240215T113000Z
 SUMMARY:Electricity Review
-UID:f677731c-baed-43f5-a2f4-b26c6300c709@f677.org
+UID:29240d45-3cd3-4b4b-be4f-295f00e53411@2924.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83421290618173380/83421290861435197
 END:VEVENT
 BEGIN:VEVENT
@@ -14,47 +54,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240216T133000Z
 DTSTART:20240216T133000Z
 SUMMARY:VGT Medien + Kasus
-UID:43f930a3-410d-4d06-ad0d-061ed59b9deb@43f9.org
+UID:65d6c7b9-d55f-49ce-9b62-2e69f4edbb66@65d6.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83741862698945363/83741862841565037
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812">Link</a>
-DTEND:20240215T132500Z
-DTSTART:20240215T132500Z
-SUMMARY:Paper 2
-UID:c64b8736-ff97-4744-a3c8-d6ec75423cce@c64b.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/80090313334459699/80090318304711812
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846">Link</a>
-DTEND:20240226T080000Z
-DTSTART:20240226T080000Z
-SUMMARY:Programming the Battleship Game with CodeHS
-UID:7c2b7a23-349f-4851-96a5-327cb5390e27@7c2b.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82731268181076245/82731268470479846
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83409419261458181/83409419399859266">Link</a>
-DTEND:20240213T101500Z
-DTSTART:20240213T101500Z
-SUMMARY:Tuesday 13 February
-UID:85dbc903-1f16-4f99-a36c-0294063e0deb@85db.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83409419261458181/83409419399859266
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83425459416610809/83425459743759474">Link</a>
-DTEND:20240301T083000Z
-DTSTART:20240301T083000Z
-SUMMARY:B5: Electricity
-UID:8ec7babe-92a0-459a-bf44-79d625718b77@8ec7.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83425459416610809/83425459743759474
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463">Link</a>
-DTEND:20240214T123000Z
-DTSTART:20240214T123000Z
-SUMMARY:Hausaufgaben
-UID:c7491304-8db2-4d64-ad96-e9e83313600b@c749.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/82354663155831561/82354663352970463
 END:VEVENT
 END:VCALENDAR
