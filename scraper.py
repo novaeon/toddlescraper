@@ -47,8 +47,8 @@ def scrape_toddle(MyUsername, MyPassword):
     url = "https://web.toddleapp.com/platform?type=loginForm&usertype=student"
     driver.get(url)
 
-    username_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div/div/div[2]/input')
-    password_input = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[1]/div[1]/div/div/div/div/div[2]/input')
+    username_input = driver.find_element(By.XPATH, '//input[@name="email"]')
+    password_input = driver.find_element(By.XPATH, '//input[@name="password"]')
     submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[3]/button')
 
     username_input.send_keys(MyUsername)
