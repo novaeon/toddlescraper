@@ -96,7 +96,8 @@ def scrape_toddle(MyUsername, MyPassword):
         link = driver.current_url
         assingment_data[i] = assingment_data[i] + (link,)
         driver.back()
-        load_all_assignments()
+        assignments, _ = load_all_assignments()
+        time.sleep(1)
     
     
     def convert_date(input_date):
