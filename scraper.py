@@ -12,7 +12,7 @@ from ics import Calendar, Event
 from pyvirtualdisplay import Display
 import os
 import json
-display = Display(visible=0, size=(800, 800))  
+display = Display(visible=0, size=(1920, 1080))  
 display.start()
 
 env_vars = os.environ['ALLSECRETS']
