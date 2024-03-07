@@ -2,11 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186">Link</a>
+DTEND:20240308T133000Z
+DTSTART:20240308T133000Z
+SUMMARY:Hausaufgaben
+UID:08da4f55-4b7d-435b-adb4-a3d084c688fd@08da.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
+DTEND:20240315T143000Z
+DTSTART:20240315T143000Z
+SUMMARY:B4: Assessment
+UID:f744620e-ffd3-4e32-97fd-e4ae3a8d3188@f744.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92422781437754925/92422781773299467">Link</a>
+DTEND:20240308T080000Z
+DTSTART:20240308T080000Z
+SUMMARY:3.1 Limitations of GDP - notes quiz
+UID:b743080c-2b2a-4eb1-87f1-5f19521756b2@b743.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92422781437754925/92422781773299467
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
+DTEND:20240315T114500Z
+DTSTART:20240315T114500Z
+SUMMARY:Paper 1: Film Reviews
+UID:4969621a-3c05-486e-8276-9180d48a81d2@4969.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91999229538477900/91999229685278026">Link</a>
 DTEND:20240311T073000Z
 DTSTART:20240311T073000Z
 SUMMARY:Paper 1: Film Review Model
-UID:efdf0035-f4d3-407e-a5f2-8485df24a707@efdf.org
+UID:b64a003b-84ef-4766-ab7b-334259eeda31@b64a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91999229538477900/91999229685278026
 END:VEVENT
 BEGIN:VEVENT
@@ -14,47 +46,15 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240312T073000Z
 DTSTART:20240312T073000Z
 SUMMARY:P2 Leseverstehen-Test
-UID:f2bff564-dfb7-404c-9163-438e69032b0b@f2bf.org
+UID:d51cbda7-e198-4034-9eaf-f7729bc6a8b2@d51c.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92422781437754925/92422781773299467">Link</a>
-DTEND:20240308T080000Z
-DTSTART:20240308T080000Z
-SUMMARY:3.1 Limitations of GDP - notes quiz
-UID:cddba4a8-9287-4260-9b9e-8818ea66cb2b@cddb.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92422781437754925/92422781773299467
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251">Link</a>
 DTEND:20240308T150000Z
 DTSTART:20240308T150000Z
 SUMMARY:Read Topic 3
-UID:04cc6639-5b6f-412a-be80-9c0847d5d375@04cc.org
+UID:49121f34-b4c4-4bdb-a300-6ce5a88eb91c@4912.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
-DTEND:20240315T143000Z
-DTSTART:20240315T143000Z
-SUMMARY:B4: Assessment
-UID:b715d64a-69c7-4f0f-a953-ea1a6cf5eb76@b715.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186">Link</a>
-DTEND:20240308T133000Z
-DTSTART:20240308T133000Z
-SUMMARY:Hausaufgaben
-UID:29144f18-3529-4ce1-aba5-b7c5c5d4b911@2914.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
-DTEND:20240315T114500Z
-DTSTART:20240315T114500Z
-SUMMARY:Paper 1: Film Reviews
-UID:2ea619c1-c214-4d47-9e16-88efae7a1b80@2ea6.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
 END:VEVENT
 END:VCALENDAR
