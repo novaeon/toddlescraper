@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92772857116889285/92772857246913732">Link</a>
-DTEND:20240308T133000Z
-DTSTART:20240308T133000Z
-SUMMARY:Handysucht
-UID:56c83872-c2fa-4882-8fb6-f5d7c5d3d3b9@56c8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92772857116889285/92772857246913732
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251">Link</a>
-DTEND:20240308T150000Z
-DTSTART:20240308T150000Z
-SUMMARY:Read Topic 3
-UID:b03c4386-262f-4a16-890d-4c4939de6fb2@b03c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186">Link</a>
 DTEND:20240308T133000Z
 DTSTART:20240308T133000Z
 SUMMARY:Hausaufgaben
-UID:b54612de-658c-44dc-bbfc-65bc4d9202c3@b546.org
+UID:684ac99d-b17b-4874-a721-3eb09b6f3d2a@684a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92197857137800597/92197857280408186
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240312T073000Z
 DTSTART:20240312T073000Z
 SUMMARY:P2 Leseverstehen-Test
-UID:7b81aa8b-4a0c-483d-ab7c-02c68d28c479@7b81.org
+UID:31731539-da69-4a31-aa3c-6e9eb783ac80@3173.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860
 END:VEVENT
 BEGIN:VEVENT
@@ -38,23 +22,39 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240311T073000Z
 DTSTART:20240311T073000Z
 SUMMARY:Paper 1: Film Review Model
-UID:f78ab4d9-9e7a-47d9-b74d-a50085076fd8@f78a.org
+UID:b09e85a0-fb33-48c7-bcfb-31572debc5be@b09e.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91999229538477900/91999229685278026
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
-DTEND:20240315T114500Z
-DTSTART:20240315T114500Z
-SUMMARY:Paper 1: Film Reviews
-UID:d3aa8ee6-9ab0-4d3f-8365-5b84200e2b8e@d3aa.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
 DTEND:20240315T143000Z
 DTSTART:20240315T143000Z
 SUMMARY:B4: Assessment
-UID:eae4d097-00c4-4045-9f1a-b5ca2e9d9481@eae4.org
+UID:b6d8461b-ef16-433f-81b7-c72019187bd4@b6d8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251">Link</a>
+DTEND:20240308T150000Z
+DTSTART:20240308T150000Z
+SUMMARY:Read Topic 3
+UID:cab48473-e22f-4d28-ad10-b015c0a9ea24@cab4.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91687488678008518/91687488980002251
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
+DTEND:20240315T114500Z
+DTSTART:20240315T114500Z
+SUMMARY:Paper 1: Film Reviews
+UID:c23a4029-00f0-4b41-a8db-97663c74025c@c23a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/92772857116889285/92772857246913732">Link</a>
+DTEND:20240308T133000Z
+DTSTART:20240308T133000Z
+SUMMARY:Handysucht
+UID:2df7b423-4fc6-4aca-ae5e-2047bf9bc946@2df7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/92772857116889285/92772857246913732
 END:VEVENT
 END:VCALENDAR
