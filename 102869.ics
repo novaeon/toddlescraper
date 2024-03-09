@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
-DTEND:20240315T143000Z
-DTSTART:20240315T143000Z
-SUMMARY:B4: Assessment
-UID:46c5ee2a-af2b-48ef-ab02-d9e1f34ce6e2@46c5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860">Link</a>
-DTEND:20240312T073000Z
-DTSTART:20240312T073000Z
-SUMMARY:P2 Leseverstehen-Test
-UID:00f141b5-509d-4ae9-b310-3e786641959f@00f1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91999229538477900/91999229685278026">Link</a>
 DTEND:20240311T073000Z
 DTSTART:20240311T073000Z
 SUMMARY:Paper 1: Film Review Model
-UID:5316992a-a92d-4e74-aa53-49dbe5e6fdfe@5316.org
+UID:1a6a11cf-d61c-49b7-9210-2b5ba11d8661@1a6a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91999229538477900/91999229685278026
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,23 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240315T114500Z
 DTSTART:20240315T114500Z
 SUMMARY:Paper 1: Film Reviews
-UID:4e0e6b55-968c-40ab-ba37-4a5150ce465f@4e0e.org
+UID:4df2c219-8f50-42c5-bf27-68c82e8ae8ad@4df2.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
+DTEND:20240315T143000Z
+DTSTART:20240315T143000Z
+SUMMARY:B4: Assessment
+UID:33927ff3-57f6-49ae-8f1c-d0c1f325f259@3392.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860">Link</a>
+DTEND:20240312T073000Z
+DTSTART:20240312T073000Z
+SUMMARY:P2 Leseverstehen-Test
+UID:6373a073-7ef2-4885-8e1e-af9efff97270@6373.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860
 END:VEVENT
 END:VCALENDAR
