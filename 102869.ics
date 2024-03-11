@@ -2,35 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/89553689630474470/89553689781475525">Link</a>
-DTEND:20240313T090000Z
-DTSTART:20240313T090000Z
-SUMMARY:HL Hausaufgaben
-UID:838f1656-e59c-4a53-9977-fd90012ad2e7@838f.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/89553689630474470/89553689781475525
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93550912395550841/93550912525567714">Link</a>
 DTEND:20240314T090000Z
 DTSTART:20240314T090000Z
 SUMMARY:Hausaufgaben
-UID:e86cab2f-a7f1-48a5-9ac3-9bc7926dce23@e86c.org
+UID:66d7f948-51aa-40fc-8a6e-ad466e1cb8dc@66d7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93550912395550841/93550912525567714
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/89553689630474470/89553689781475525">Link</a>
+DTEND:20240313T090000Z
+DTSTART:20240313T090000Z
+SUMMARY:HL Hausaufgaben
+UID:0e4b9050-725e-46eb-9fd5-897e20461696@0e4b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/89553689630474470/89553689781475525
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
 DTEND:20240321T133000Z
 DTSTART:20240321T133000Z
 SUMMARY:Paper 1: Film Reviews
-UID:bce84402-6910-4327-8d21-aa17822899c6@bce8.org
+UID:2067305c-5767-4f5f-9e95-c6bbd0c6c9cd@2067.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93646521567814271/93646521957884932">Link</a>
+DTEND:20240311T133000Z
+DTSTART:20240311T133000Z
+SUMMARY:Simple Harmonic Motion - Spring Oscillation
+UID:b123795d-8c54-4bcc-8dc8-0ed9fad2d5d3@b123.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93646521567814271/93646521957884932
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860">Link</a>
 DTEND:20240312T073000Z
 DTSTART:20240312T073000Z
 SUMMARY:P2 Leseverstehen-Test
-UID:694a98af-e397-4e66-86a2-1373b3276112@694a.org
+UID:301fc429-2e0a-4c8e-ba39-fe1dc4380646@301f.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/91713990903732567/91713991021169860
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +46,7 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240315T143000Z
 DTSTART:20240315T143000Z
 SUMMARY:B4: Assessment
-UID:95d12976-3bb0-4463-8947-019d9018b9cf@95d1.org
+UID:05bea49a-9ca8-4231-bd8f-4e204f43ffb9@05be.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93646521567814271/93646521957884932">Link</a>
-DTEND:20240311T133000Z
-DTSTART:20240311T133000Z
-SUMMARY:Simple Harmonic Motion - Spring Oscillation
-UID:6489782a-ddf4-4d4e-a808-5e3bbd18d7b4@6489.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93646521567814271/93646521957884932
 END:VEVENT
 END:VCALENDAR
