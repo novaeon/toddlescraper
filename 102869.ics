@@ -2,35 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
-DTEND:20240315T143000Z
-DTSTART:20240315T143000Z
-SUMMARY:B4: Assessment
-UID:98044c5a-64c1-4579-a000-c64153c3e8a6@9804.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469329178144/projects/42808/progress/22854253735329301">Link</a>
-DTEND:20240314T230000Z
-DTSTART:20240314T230000Z
-SUMMARY:Micro final draft submitted
-UID:ca05047c-0ba3-43c4-9a2c-8bc037e87e0b@ca05.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469329178144/projects/42808/progress/22854253735329301
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/94257089114801901/94257130156071749">Link</a>
-DTEND:20240318T101500Z
-DTSTART:20240318T101500Z
-SUMMARY:Rede Soziale Netzwerke Reflektion
-UID:d9cec677-2d42-4291-8843-a6d591ed7b44@d9ce.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/94257089114801901/94257130156071749
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/94642871528856610/94642871696629934">Link</a>
 DTEND:20240319T121500Z
 DTSTART:20240319T121500Z
 SUMMARY:Practice Paper 1
-UID:59206e41-797b-4b9b-896e-a49cde2ab1aa@5920.org
+UID:f2d8862e-fa87-4e4f-ba1e-8960c22d2296@f2d8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/94642871528856610/94642871696629934
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +14,7 @@ DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform
 DTEND:20240403T140000Z
 DTSTART:20240403T140000Z
 SUMMARY:Battleship Development
-UID:cd08a5b7-751d-4e54-84c1-b35eea84145d@cd08.org
+UID:fa960402-3cf7-4075-97a5-5dd0543fe044@fa96.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +22,7 @@ DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform
 DTEND:20240315T131500Z
 DTSTART:20240315T131500Z
 SUMMARY:Exploration Proposal
-UID:423bbfe6-ca1c-4d5a-9967-a6f37164c1a7@423b.org
+UID:73f51f81-e70b-4b87-a539-9f6b17c1390c@73f5.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/94298275426863566/94298311866974865
 END:VEVENT
 BEGIN:VEVENT
@@ -54,7 +30,31 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240321T133000Z
 DTSTART:20240321T133000Z
 SUMMARY:Paper 1: Film Reviews
-UID:fe204d04-0864-4996-b4d8-d44b9d84449b@fe20.org
+UID:1d2547f6-9c1e-4f17-b674-421b666782a2@1d25.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Economics I G\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469329178144/projects/42808/progress/22854253735329301">Link</a>
+DTEND:20240314T230000Z
+DTSTART:20240314T230000Z
+SUMMARY:Micro final draft submitted
+UID:5c82d137-341d-4877-a8ac-113d81d5fe5b@5c82.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469329178144/projects/42808/progress/22854253735329301
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/94257089114801901/94257130156071749">Link</a>
+DTEND:20240318T101500Z
+DTSTART:20240318T101500Z
+SUMMARY:Rede Soziale Netzwerke Reflektion
+UID:ee0f3426-b295-4389-8f26-a5ca67577d70@ee0f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/94257089114801901/94257130156071749
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144">Link</a>
+DTEND:20240315T143000Z
+DTSTART:20240315T143000Z
+SUMMARY:B4: Assessment
+UID:81ed7239-1edf-4303-9180-f531e10805b5@81ed.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85242898739638420/85242898831913144
 END:VEVENT
 END:VCALENDAR
