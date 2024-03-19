@@ -2,11 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086">Link</a>
+DTEND:20240403T140000Z
+DTSTART:20240403T140000Z
+SUMMARY:Battleship Development
+UID:9703cb41-a718-4c03-95cf-2c8bedd9d2f0@9703.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96493852814220155/96493852910682557">Link</a>
+DTEND:20240320T123000Z
+DTSTART:20240320T123000Z
+SUMMARY:Hausaufgaben
+UID:61f73d2d-7d55-43d1-b18a-e4b93cef7b7c@61f7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96493852814220155/96493852910682557
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
+DTEND:20240327T143000Z
+DTSTART:20240327T143000Z
+SUMMARY:Group 4 Project - World of 8 Billion
+UID:c1ea15ba-8ed2-4990-8dff-0bc27ebed036@c1ea.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96061708426021204/96061708539275337">Link</a>
 DTEND:20240319T101500Z
 DTSTART:20240319T101500Z
 SUMMARY:Wave Concepts
-UID:8de2c0ae-27c9-4c19-b78a-b1f50b9c950f@8de2.org
+UID:0efa84c0-ee4d-44f2-b137-9e5d9aa2e0be@0efa.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96061708426021204/96061708539275337
 END:VEVENT
 BEGIN:VEVENT
@@ -14,23 +38,15 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240321T111500Z
 DTSTART:20240321T111500Z
 SUMMARY:Refraction
-UID:7f172bc3-6600-49c8-bef7-467162822d0f@7f17.org
+UID:9409c6c5-a515-4113-b31f-2c8196fe159c@9409.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96063332020128092/96063332150159610
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
-DTEND:20240327T143000Z
-DTSTART:20240327T143000Z
-SUMMARY:Group 4 Project - World of 8 Billion
-UID:7ab88053-edb0-4d28-b3a5-fac543f00a2a@7ab8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052">Link</a>
 DTEND:20240321T133000Z
 DTSTART:20240321T133000Z
 SUMMARY:Paper 1: Film Reviews
-UID:fa895579-dafc-40be-a79b-8fd967e22fb0@fa89.org
+UID:5d477978-e662-4a17-9893-2b504379f521@5d47.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/85278481423807143/85278486930920052
 END:VEVENT
 BEGIN:VEVENT
@@ -38,23 +54,7 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240319T121500Z
 DTSTART:20240319T121500Z
 SUMMARY:Practice Paper 1
-UID:718a9248-c7d4-449a-84ea-5e69087e5f8c@718a.org
+UID:94432f55-b8df-458d-b6d1-b1c7cca76a9a@9443.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/94642871528856610/94642871696629934
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96493852814220155/96493852910682557">Link</a>
-DTEND:20240320T123000Z
-DTSTART:20240320T123000Z
-SUMMARY:Hausaufgaben
-UID:eb33d9df-803e-497e-b7bd-6e09c65d0b75@eb33.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96493852814220155/96493852910682557
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086">Link</a>
-DTEND:20240403T140000Z
-DTSTART:20240403T140000Z
-SUMMARY:Battleship Development
-UID:e46a1d7a-22e4-422b-a4e1-1c581fda38a2@e46a.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 END:VCALENDAR
