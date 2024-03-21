@@ -2,35 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
-DTEND:20240327T143000Z
-DTSTART:20240327T143000Z
-SUMMARY:Group 4 Project - World of 8 Billion
-UID:5b933338-e925-412f-965e-1002d77405f8@5b93.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404">Link</a>
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995">Link</a>
 DTEND:20240322T133000Z
 DTSTART:20240322T133000Z
-SUMMARY:Handyverbot an Schulen
-UID:6d4d7239-5e81-4b3d-ac0d-a9d793091074@6d4d.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
-DTEND:20240326T073000Z
-DTSTART:20240326T073000Z
-SUMMARY:P1 Rede über Handys in der Schule
-UID:db07f27e-6a31-416a-b962-9d91c4131afa@db07.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
+SUMMARY:Hausaufgaben
+UID:385e90ee-94db-466a-9ff8-fcd9f8023274@385e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333">Link</a>
 DTEND:20240325T073000Z
 DTSTART:20240325T073000Z
 SUMMARY:1 - Unit 4 Speeches: Intro and Key Terminology
-UID:27f31877-5e5c-4789-a87a-1795c7b38690@27f3.org
+UID:614ae05d-2248-414a-8177-d0c67aabde16@614a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +22,31 @@ DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform
 DTEND:20240403T140000Z
 DTSTART:20240403T140000Z
 SUMMARY:Battleship Development
-UID:da25d3c7-106f-4f89-b2e7-42deaebcaf09@da25.org
+UID:3e7eda14-9e15-497f-99a5-55c57e1bd702@3e7e.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995">Link</a>
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404">Link</a>
 DTEND:20240322T133000Z
 DTSTART:20240322T133000Z
-SUMMARY:Hausaufgaben
-UID:b07db661-058f-49b8-a2d6-1f5fc239e5bc@b07d.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995
+SUMMARY:Handyverbot an Schulen
+UID:9d736b25-83b9-47fc-b5a3-4ebc0ea16610@9d73.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
+DTEND:20240327T143000Z
+DTSTART:20240327T143000Z
+SUMMARY:Group 4 Project - World of 8 Billion
+UID:f2a259de-2d2a-408f-97c9-c93b38d52463@f2a2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
+DTEND:20240326T073000Z
+DTSTART:20240326T073000Z
+SUMMARY:P1 Rede über Handys in der Schule
+UID:fe372e78-b2e4-4480-bffe-3926bf6fad27@fe37.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
 END:VEVENT
 END:VCALENDAR
