@@ -2,27 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
-DTEND:20240327T143000Z
-DTSTART:20240327T143000Z
-SUMMARY:Group 4 Project - World of 8 Billion
-UID:8a60cb51-44bd-40fc-896e-910489abe06c@8a60.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086">Link</a>
+DTEND:20240403T140000Z
+DTSTART:20240403T140000Z
+SUMMARY:Battleship Development
+UID:532d01e5-5a8c-47ea-b8a2-adb92450a508@532d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333">Link</a>
 DTEND:20240325T073000Z
 DTSTART:20240325T073000Z
 SUMMARY:1 - Unit 4 Speeches: Intro and Key Terminology
-UID:2b947b25-3e32-459e-8db7-f1a819ccf1b1@2b94.org
+UID:bebc4f5f-5ec4-4bc3-a314-3d9d7eeeca8c@bebc.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963">Link</a>
+DTEND:20240327T143000Z
+DTSTART:20240327T143000Z
+SUMMARY:Group 4 Project - World of 8 Billion
+UID:d383e8bb-bc02-49fa-8796-f36b25e84c55@d383.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404">Link</a>
+DTEND:20240322T133000Z
+DTSTART:20240322T133000Z
+SUMMARY:Handyverbot an Schulen
+UID:53f0b0e9-a10d-45f6-a175-48f290121442@53f0.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995">Link</a>
 DTEND:20240322T133000Z
 DTSTART:20240322T133000Z
 SUMMARY:Hausaufgaben
-UID:4e04be5c-2cd1-4b07-a416-075afc278184@4e04.org
+UID:86a44a25-dbcd-4ab7-b518-00e57eb0b6ae@86a4.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97190489630965967/97190489794559995
 END:VEVENT
 BEGIN:VEVENT
@@ -30,23 +46,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240326T073000Z
 DTSTART:20240326T073000Z
 SUMMARY:P1 Rede über Handys in der Schule
-UID:3bdaab34-411e-4a5b-bd8e-de006e72e190@3bda.org
+UID:d62452df-316d-4b6f-a398-3cdadaf37916@d624.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404">Link</a>
-DTEND:20240322T133000Z
-DTSTART:20240322T133000Z
-SUMMARY:Handyverbot an Schulen
-UID:14b9fafc-ef0e-4ecc-a893-baf57a0b1422@14b9.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96939139408082118/96939139538096404
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086">Link</a>
-DTEND:20240403T140000Z
-DTSTART:20240403T140000Z
-SUMMARY:Battleship Development
-UID:5649e62e-6ec5-489e-92b2-1ca4e9127264@5649.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 END:VCALENDAR
