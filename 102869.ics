@@ -2,27 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97886481737064686/97886482043253845">Link</a>
-DTEND:20240328T143000Z
-DTSTART:20240328T143000Z
-SUMMARY:Standing Waves Investigation
-UID:054af638-d2a4-4285-a05f-6891d6d33f71@054a.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97886481737064686/97886482043253845
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
-DTEND:20240326T073000Z
-DTSTART:20240326T073000Z
-SUMMARY:P1 Rede über Handys in der Schule
-UID:dca65d84-0919-4a17-984d-ba73d18cda2b@dca6.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97879225117188241/97879225482096205">Link</a>
+DTEND:20240325T133000Z
+DTSTART:20240325T133000Z
+SUMMARY:Interference
+UID:0d7cfe23-b9d3-42f4-995d-21460780a951@0d7c.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97879225117188241/97879225482096205
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086">Link</a>
 DTEND:20240403T140000Z
 DTSTART:20240403T140000Z
 SUMMARY:Battleship Development
-UID:abd39f17-a796-4497-804b-d18b57e14c84@abd3.org
+UID:d78d0054-fd04-4cdc-a4c6-7e37a4aa3479@d78d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/93911486077874408/93911525068112086
 END:VEVENT
 BEGIN:VEVENT
@@ -30,23 +22,31 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240327T143000Z
 DTSTART:20240327T143000Z
 SUMMARY:Group 4 Project - World of 8 Billion
-UID:1ce4e540-ac9b-4c2a-ad89-0daf0297432b@1ce4.org
+UID:eb8c4d77-9378-41eb-95ec-6efe52d42957@eb8c.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/95309025192721020/95309025339506963
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97879225117188241/97879225482096205">Link</a>
-DTEND:20240325T133000Z
-DTSTART:20240325T133000Z
-SUMMARY:Interference
-UID:d6333f48-7ade-4595-aebf-1aeadc9fd5b3@d633.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97879225117188241/97879225482096205
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
+DTEND:20240326T073000Z
+DTSTART:20240326T073000Z
+SUMMARY:P1 Rede über Handys in der Schule
+UID:02352966-3bae-4cf2-a905-ce7f949eb208@0235.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97886481737064686/97886482043253845">Link</a>
+DTEND:20240328T143000Z
+DTSTART:20240328T143000Z
+SUMMARY:Standing Waves Investigation
+UID:d2b6c0d3-0bc9-472c-94be-a1049105b529@d2b6.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97886481737064686/97886482043253845
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333">Link</a>
 DTEND:20240325T073000Z
 DTSTART:20240325T073000Z
 SUMMARY:1 - Unit 4 Speeches: Intro and Key Terminology
-UID:79fccad5-fdb7-4c19-b8b9-2a063f04d157@79fc.org
+UID:630aee08-9f9c-4471-be26-e4736cf62aeb@630a.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96824351789165941/96824351914989333
 END:VEVENT
 END:VCALENDAR
