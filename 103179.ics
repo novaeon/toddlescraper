@@ -2,11 +2,51 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/98593264197708194/98593264352902249">Link</a>
+DTEND:20240326T073000Z
+DTSTART:20240326T073000Z
+SUMMARY:Hausaufgaben
+UID:2f792a39-b150-4087-ada1-665330fe7188@2f79.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/98593264197708194/98593264352902249
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789958615454">Link</a>
+DTEND:20240326T073000Z
+DTSTART:20240326T073000Z
+SUMMARY:P1 Rede über Handys in der Schule
+UID:a97708ab-6fef-454c-8a34-728716b6a6b7@a977.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789958615454
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Math Applications I SL B\n<a href="https://web.toddleapp.com/platform/3716/courses/269206/projects/42815/progress/222684">Link</a>
+DTEND:20240402T220000Z
+DTSTART:20240402T220000Z
+SUMMARY:Math Progressed shared
+UID:7da4907e-a3d0-4b9e-b94c-a87aeef76303@7da4.org
+URL:https://web.toddleapp.com/platform/3716/courses/269206/projects/42815/progress/222684
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I D\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83878894821709883/83878894964318403">Link</a>
+DTEND:20240423T111500Z
+DTSTART:20240423T111500Z
+SUMMARY:Home Fire Ch. 7-9 Reading & Ch. 7 Tasks
+UID:50df5e57-22eb-4541-b19a-97f6e2e7d30e@50df.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83878894821709883/83878894964318403
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I D\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96809152344501420/96809152491293337">Link</a>
+DTEND:20240325T121500Z
+DTSTART:20240325T121500Z
+SUMMARY:Bring Antigone
+UID:c317cd37-abf9-4bf0-9bc9-0374eae2482f@c317.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96809152344501420/96809152491293337
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Psychology I G\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/86604930902665522/86604931238204457">Link</a>
 DTEND:20240326T080000Z
 DTSTART:20240326T080000Z
 SUMMARY:Debate: Learning and technology
-UID:fbb14125-4daa-46eb-a1e5-6ccc998030a3@fbb1.org
+UID:e2bd4f80-5a5f-45d6-95ce-bb1f97015f16@e2bd.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/86604930902665522/86604931238204457
 END:VEVENT
 BEGIN:VEVENT
@@ -14,47 +54,7 @@ DESCRIPTION:IBDP Language & Literature I D\n<a href="https://web.toddleapp.com/p
 DTEND:20240403T072000Z
 DTSTART:20240403T072000Z
 SUMMARY:Home Fire Ch. 5-6 Reading & Tasks
-UID:25a467fc-09f2-4107-9b2e-e2414e08d15a@25a4.org
+UID:a1d8f4e3-2a86-4dd3-bb65-2ed38c44d963@a1d8.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83875604201478137/83875604356668356
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/98593264197708194/98593264352902249">Link</a>
-DTEND:20240326T073000Z
-DTSTART:20240326T073000Z
-SUMMARY:Hausaufgaben
-UID:e09f88a6-c979-41c3-a8b8-351501c9324c@e09f.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/98593264197708194/98593264352902249
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I D\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/83878894821709883/83878894964318403">Link</a>
-DTEND:20240423T111500Z
-DTSTART:20240423T111500Z
-SUMMARY:Home Fire Ch. 7-9 Reading & Ch. 7 Tasks
-UID:18e3b513-1f6a-4801-a36d-93152e7ca697@18e3.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/83878894821709883/83878894964318403
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Math Applications I SL B\n<a href="https://web.toddleapp.com/platform/3716/courses/269206/projects/42815/progress/222684">Link</a>
-DTEND:20240402T220000Z
-DTSTART:20240402T220000Z
-SUMMARY:Math Progressed shared
-UID:de9b90cd-1ecd-4fd4-8268-751a564470c8@de9b.org
-URL:https://web.toddleapp.com/platform/3716/courses/269206/projects/42815/progress/222684
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789958615454">Link</a>
-DTEND:20240326T073000Z
-DTSTART:20240326T073000Z
-SUMMARY:P1 Rede über Handys in der Schule
-UID:83e152c3-f212-4f8e-941e-c9ca2870605e@83e1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789958615454
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I D\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/96809152344501420/96809152491293337">Link</a>
-DTEND:20240325T121500Z
-DTSTART:20240325T121500Z
-SUMMARY:Bring Antigone
-UID:abfbba44-5155-4171-9fc0-37f4005238f4@abfb.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/96809152344501420/96809152491293337
 END:VEVENT
 END:VCALENDAR
