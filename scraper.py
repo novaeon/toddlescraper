@@ -58,7 +58,7 @@ def scrape_toddle(MyUsername, MyPassword):
 
     time.sleep(2)
     def load_all_assignments():
-        WebDriverWait(driver, 15).until(
+        WebDriverWait(driver, 60).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
         )
         time.sleep(2)
