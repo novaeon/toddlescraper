@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
+DTEND:20240502T220000Z
+DTSTART:20240502T220000Z
+SUMMARY:First Draft
+UID:be068d23-6322-4bbc-8ae4-b895f219c210@be06.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627">Link</a>
 DTEND:20240408T111500Z
 DTSTART:20240408T111500Z
 SUMMARY:Hausaufgaben
-UID:8123a807-d8a3-484c-92cb-7a7970e1bcb5@8123.org
+UID:8fa73055-8389-4ec7-840d-0e97bcc65511@8fa7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627
 END:VEVENT
 BEGIN:VEVENT
@@ -14,15 +22,7 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240409T122500Z
 DTSTART:20240409T122500Z
 SUMMARY:Paper 1 Film Review Self Assessment
-UID:cf9d340f-bb26-4d57-b769-92c5bb4a6669@cf9d.org
+UID:eadca692-7252-47c0-baf2-c81f9b660084@eadc.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
-DTEND:20240502T220000Z
-DTSTART:20240502T220000Z
-SUMMARY:First Draft
-UID:3f9ec9ec-89a8-4de7-91ae-7ca912b6b8b1@3f9e.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
 END:VEVENT
 END:VCALENDAR
