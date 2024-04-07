@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627">Link</a>
-DTEND:20240408T111500Z
-DTSTART:20240408T111500Z
-SUMMARY:Hausaufgaben
-UID:aef6a3b3-9d39-4d4d-abb8-5c8b5a4f6750@aef6.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
-DTEND:20240408T111500Z
-DTSTART:20240408T111500Z
-SUMMARY:P1 Rede Handyverbot Reflektion
-UID:776e9788-654b-4538-ac17-ce8f33c11f01@776e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:c3b3588b-864a-408e-9420-3dce65738c8c@c3b3.org
+UID:58675945-00c0-4154-941d-8ada31b6c551@5867.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,23 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240409T122500Z
 DTSTART:20240409T122500Z
 SUMMARY:Paper 1 Film Review Self Assessment
-UID:17ba4e25-1d26-4891-bd90-da0c6d9a3247@17ba.org
+UID:25e91e26-beaa-4036-b986-be71e5907c68@25e9.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627">Link</a>
+DTEND:20240408T111500Z
+DTSTART:20240408T111500Z
+SUMMARY:Hausaufgaben
+UID:5e9628d1-06e3-4ddf-b637-58b84195e703@5e96.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
+DTEND:20240408T111500Z
+DTSTART:20240408T111500Z
+SUMMARY:P1 Rede Handyverbot Reflektion
+UID:a6cae130-0279-4631-b75b-7acac9bd1de9@a6ca.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
 END:VEVENT
 END:VCALENDAR
