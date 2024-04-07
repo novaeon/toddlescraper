@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947">Link</a>
-DTEND:20240409T122500Z
-DTSTART:20240409T122500Z
-SUMMARY:Paper 1 Film Review Self Assessment
-UID:b476577c-89be-4e9e-89c5-5815dfb2e637@b476.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
-DTEND:20240408T111500Z
-DTSTART:20240408T111500Z
-SUMMARY:P1 Rede Handyverbot Reflektion
-UID:57332007-5733-4692-92bb-f4e855ab0b61@5733.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627">Link</a>
 DTEND:20240408T111500Z
 DTSTART:20240408T111500Z
 SUMMARY:Hausaufgaben
-UID:ccd7acd0-cf1e-4d1f-98d4-a411e6205198@ccd7.org
+UID:ee6dd061-adcc-4bb4-b588-666ea6dc8797@ee6d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/102628986407883296/102628986571472627
 END:VEVENT
 BEGIN:VEVENT
@@ -30,7 +14,23 @@ DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:964533f1-3ed0-479a-a247-078f707b283a@9645.org
+UID:27a116ed-0734-4d40-82bd-24baae13216e@27a1.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947">Link</a>
+DTEND:20240409T122500Z
+DTSTART:20240409T122500Z
+SUMMARY:Paper 1 Film Review Self Assessment
+UID:d704ceb7-eb6e-40a6-9fbc-ddab14cd142f@d704.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761">Link</a>
+DTEND:20240408T111500Z
+DTSTART:20240408T111500Z
+SUMMARY:P1 Rede Handyverbot Reflektion
+UID:e999462c-dbf2-4ef1-8bf8-798f6a868e13@e999.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/97491789828591191/97491789962809761
 END:VEVENT
 END:VCALENDAR
