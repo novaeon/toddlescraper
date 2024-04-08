@@ -2,43 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104000030930644676/104000031291347050">Link</a>
-DTEND:20240409T101500Z
-DTSTART:20240409T101500Z
-SUMMARY:Doppler Effect 1
-UID:80ff148b-f22a-4557-88d8-0fd12c8d8f01@80ff.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104000030930644676/104000031291347050
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:cfe40d84-400a-4e17-b3ad-ff48e9aa5ac3@cfe4.org
+UID:d528427b-6241-4a9a-bc8f-697858388367@d528.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104013113031929876/104013113329722551">Link</a>
-DTEND:20240410T123000Z
-DTSTART:20240410T123000Z
-SUMMARY:Doppler Effect HL
-UID:05a27ee1-c5b6-4096-ab14-2761fb2ce927@05a2.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104013113031929876/104013113329722551
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
-DTEND:20240410T123000Z
-DTSTART:20240410T123000Z
-SUMMARY:Hausaufgaben
-UID:d705130b-6f8a-409b-b137-87c52277f047@d705.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947">Link</a>
 DTEND:20240409T122500Z
 DTSTART:20240409T122500Z
 SUMMARY:Paper 1 Film Review Self Assessment
-UID:440dba8b-4d86-4d7e-a5d7-5bbcdf5725b9@440d.org
+UID:edd6d1fd-1392-49d7-bee8-05478ccfa6f0@edd6.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/100440742991763793/100440743138571947
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +22,31 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240410T123000Z
 DTSTART:20240410T123000Z
 SUMMARY:P2 Hörverstehen
-UID:4dd0b6f7-a375-44b1-88d3-bcd4148af847@4dd0.org
+UID:6604d1c3-12a4-424b-a2f6-bcc55b0d350c@6604.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104143008462551393/104143008567409097
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104013113031929876/104013113329722551">Link</a>
+DTEND:20240410T123000Z
+DTSTART:20240410T123000Z
+SUMMARY:Doppler Effect HL
+UID:e0c553a1-2ed0-4c88-a5b6-ce18aca4d5be@e0c5.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104013113031929876/104013113329722551
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
+DTEND:20240410T123000Z
+DTSTART:20240410T123000Z
+SUMMARY:Hausaufgaben
+UID:015b0a13-3ef0-45a6-9ee4-680b2a6d8bf1@015b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104000030930644676/104000031291347050">Link</a>
+DTEND:20240409T101500Z
+DTSTART:20240409T101500Z
+SUMMARY:Doppler Effect 1
+UID:fda1e6c6-fa04-41b6-a3e5-39795995ab0b@fda1.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104000030930644676/104000031291347050
 END:VEVENT
 END:VCALENDAR
