@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
+DTEND:20240422T063000Z
+DTSTART:20240422T063000Z
+SUMMARY:Hausaufgaben
+UID:3ac75814-6b02-4509-8d8d-d01a4cc0672e@3ac7.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Enter your first reflection in the RPPF section on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240509T220000Z
 DTSTART:20240509T220000Z
 SUMMARY:RPPF 2 on Toddle
-UID:f77d545a-17c8-4a25-92b4-48f161a423bc@f77d.org
+UID:4f392bb6-152f-439a-b281-54f82ad70bae@4f39.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -14,15 +22,7 @@ DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:d0763e3d-2ff1-4788-bd09-933135d5b399@d076.org
+UID:83466cfa-779d-4449-bdea-2685a581ea9e@8346.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
-DTEND:20240422T063000Z
-DTSTART:20240422T063000Z
-SUMMARY:Hausaufgaben
-UID:1ea61cc1-840a-4e9a-86f3-18be5d747e56@1ea6.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
 END:VEVENT
 END:VCALENDAR
