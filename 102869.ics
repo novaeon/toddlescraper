@@ -2,11 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861">Link</a>
+DTEND:20240429T111500Z
+DTSTART:20240429T111500Z
+SUMMARY:8 - Extract Analysis + BoW
+UID:d08e59ca-56eb-4b31-8865-c95ba6035856@d08e.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
+DTEND:20240502T220000Z
+DTSTART:20240502T220000Z
+SUMMARY:First Draft
+UID:78a59ce0-d8b5-499d-ba8c-1b327ddd4192@78a5.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Enter your first reflection in the RPPF section on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240509T220000Z
 DTSTART:20240509T220000Z
 SUMMARY:RPPF 2 on Toddle
-UID:5c7c3f8d-30c0-4ada-9bd8-5c3bc00b8861@5c7c.org
+UID:79f7771d-c5a5-4ff9-945c-51793c31a045@79f7.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -14,39 +30,23 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240425T091000Z
 DTSTART:20240425T091000Z
 SUMMARY:7 - Bill Gates Speech #5
-UID:67bfe6f2-ffb3-4ea0-9332-3af18546f5fd@67bf.org
+UID:d8b733fd-2b39-4887-83d1-632f06b5bfb7@d8b7.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611">Link</a>
-DTEND:20240422T063000Z
-DTSTART:20240422T063000Z
-SUMMARY:Ehe und Partnerschaft
-UID:9c34538b-1dc1-4d31-948f-ba451629f1fb@9c34.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861">Link</a>
-DTEND:20240429T111500Z
-DTSTART:20240429T111500Z
-SUMMARY:8 - Extract Analysis + BoW
-UID:397ca2a2-1849-436e-a991-99020ae7b1fd@397c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
 DTEND:20240422T063000Z
 DTSTART:20240422T063000Z
 SUMMARY:Hausaufgaben
-UID:59a018ed-f531-4a21-af34-2f44a3abb430@59a0.org
+UID:7bbd3f7c-9ac5-4b7a-861e-bbd00885b688@7bbd.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
-DTEND:20240502T220000Z
-DTSTART:20240502T220000Z
-SUMMARY:First Draft
-UID:99e448be-7505-4b5a-98aa-af675105468b@99e4.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611">Link</a>
+DTEND:20240422T063000Z
+DTSTART:20240422T063000Z
+SUMMARY:Ehe und Partnerschaft
+UID:304a2976-7c57-40a3-bf95-8c00113276e1@304a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611
 END:VEVENT
 END:VCALENDAR
