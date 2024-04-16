@@ -2,11 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
+DTEND:20240422T063000Z
+DTSTART:20240422T063000Z
+SUMMARY:Hausaufgaben
+UID:61ae84c2-de3b-4ca9-ae95-5fd03e4d9f30@61ae.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Enter your first reflection in the RPPF section on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240509T220000Z
+DTSTART:20240509T220000Z
+SUMMARY:RPPF 2 on Toddle
+UID:92fb6885-8d23-48a8-bc4e-b9f2e02de663@92fb.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612">Link</a>
+DTEND:20240425T091000Z
+DTSTART:20240425T091000Z
+SUMMARY:7 - Bill Gates Speech #5
+UID:05650881-208f-4e38-a426-83d96f8eb3de@0565.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861">Link</a>
 DTEND:20240429T111500Z
 DTSTART:20240429T111500Z
 SUMMARY:8 - Extract Analysis + BoW
-UID:159362b1-9851-424b-8e28-46400b398f35@1593.org
+UID:4e0d6bd4-b3f0-4269-9775-55adfa5bfd4a@4e0d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861
 END:VEVENT
 BEGIN:VEVENT
@@ -14,39 +38,15 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240422T063000Z
 DTSTART:20240422T063000Z
 SUMMARY:Ehe und Partnerschaft
-UID:9603ee4e-2483-4d24-8b81-bb2a9af2f8af@9603.org
+UID:0e40af0b-bc9f-484c-b908-958163ed1b29@0e40.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612">Link</a>
-DTEND:20240425T091000Z
-DTSTART:20240425T091000Z
-SUMMARY:7 - Bill Gates Speech #5
-UID:be989710-a03b-4fc3-84ee-24bc39ba83c7@be98.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Enter your first reflection in the RPPF section on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240509T220000Z
-DTSTART:20240509T220000Z
-SUMMARY:RPPF 2 on Toddle
-UID:1fb6c6ca-554c-4369-8740-e99a8817d988@1fb6.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
-DTEND:20240422T063000Z
-DTSTART:20240422T063000Z
-SUMMARY:Hausaufgaben
-UID:8b706e82-9fc8-408c-9b7d-3d21e3b29e9e@8b70.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:b94039d8-d9d7-4847-9a92-fcb19d0a0df5@b940.org
+UID:ee442606-2fa9-49f5-a4de-1d77681f0a9f@ee44.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
 END:VEVENT
 END:VCALENDAR
