@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
+DTEND:20240422T063000Z
+DTSTART:20240422T063000Z
+SUMMARY:Hausaufgaben
+UID:114d386e-89fe-466d-b643-897794c08c4e@114d.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861">Link</a>
 DTEND:20240429T111500Z
 DTSTART:20240429T111500Z
 SUMMARY:8 - Extract Analysis + BoW
-UID:554426e9-f8c2-4428-b275-a16d24058d42@5544.org
+UID:3a85c901-569b-46bd-a269-1d8401074cce@3a85.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106214737565466355/106214804925987861
 END:VEVENT
 BEGIN:VEVENT
@@ -14,47 +22,39 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240422T063000Z
 DTSTART:20240422T063000Z
 SUMMARY:Ehe und Partnerschaft
-UID:91af8d60-02b5-4255-805b-11cea21c0540@91af.org
+UID:f8cb3e17-4ba6-42f4-a7f5-6d2aa017c6a3@f8cb.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105549334166124262/105549334287760611
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612">Link</a>
-DTEND:20240425T091000Z
-DTSTART:20240425T091000Z
-SUMMARY:7 - Bill Gates Speech #5
-UID:9395e905-6d05-4796-89e6-e1afb745ea9b@9395.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105141100624224681/105141100783600069">Link</a>
-DTEND:20240517T122500Z
-DTSTART:20240517T122500Z
-SUMMARY:Oral Assessment: IO or TED Talk
-UID:77c0d18e-037e-4c92-a399-e469674f3814@77c0.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105141100624224681/105141100783600069
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Enter your first reflection in the RPPF section on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240509T220000Z
 DTSTART:20240509T220000Z
 SUMMARY:RPPF 2 on Toddle
-UID:db68d7d4-43f5-42db-b57b-360811c7f42d@db68.org
+UID:ca738b36-1f67-4df0-8f2f-2045b7a7afcd@ca73.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105141100624224681/105141100783600069">Link</a>
+DTEND:20240517T122500Z
+DTSTART:20240517T122500Z
+SUMMARY:Oral Assessment: IO or TED Talk
+UID:a12aba3c-e70c-4ff9-ba90-b0a96193d410@a12a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105141100624224681/105141100783600069
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
 DTEND:20240502T220000Z
 DTSTART:20240502T220000Z
 SUMMARY:First Draft
-UID:f5e497ad-533d-4d46-9f94-c2f708d3b42c@f5e4.org
+UID:97a816ad-0de5-4b56-9d6d-c52797440507@97a8.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730">Link</a>
-DTEND:20240422T063000Z
-DTSTART:20240422T063000Z
-SUMMARY:Hausaufgaben
-UID:aa637027-c876-4b1c-ab2b-2fdaf57f7ffe@aa63.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/104142691033430364/104142691176036730
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612">Link</a>
+DTEND:20240425T091000Z
+DTSTART:20240425T091000Z
+SUMMARY:7 - Bill Gates Speech #5
+UID:68974676-b4a8-4a25-a581-ffc28a1e691e@6897.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/106213044564016875/106213098146249612
 END:VEVENT
 END:VCALENDAR
