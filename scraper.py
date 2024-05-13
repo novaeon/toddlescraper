@@ -7,10 +7,16 @@ from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
 import os, sys
+from pyvirtualdisplay import Display
 from datetime import datetime, timedelta
 from ics import Calendar, Event
 import os
 import json
+
+display = Display(visible=0, size=(1920, 1080))  
+display.start()
+
+env_vars = os.environ['ALLSECRETS']
 
 def scrape_toddle(MyUsername, MyPassword):  
 
@@ -141,8 +147,11 @@ def decode_parts(input_string):
     else:
         return None, None
 
+parsed_data = json.loads(env_vars)
+jsonkeys = get_all_keys(parsed_data)
 
-username = "102869@isp.cz"
-password = "david&vahe"
-print("Scraping " + username + "'s toddle...")
-scrape_toddle(username, password)
+for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
+    username, password = decode_parts(key_combo)
+    print("Scraping " + username + "'s toddle...")
+    scrape_toddle(username, password)
+
