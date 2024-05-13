@@ -84,6 +84,7 @@ def scrape_toddle(MyUsername, MyPassword):
 
         if '' in [assignment[2] for assignment in assingment_data]:
             print("[WARNING] Some assignments have no due date, retrying...")
+            print("[WARNING] Missing dates: ", [assignment[0] for assignment in assingment_data if assignment[2] == ''])
             assingment_data = []
         else:
             break
