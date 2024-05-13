@@ -79,6 +79,7 @@ def scrape_toddle(MyUsername, MyPassword):
         for assignment in assignments:
             name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
             class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
+            print(f"[INFO] Full assignment data: {assignment.text.strip()}")
             due_date = assignment.text.strip().split('Due on')[1].split('Status')[0].strip()
             print(f"[INFO] Scraped assignment: {name} - {class_name} - {due_date}")
             assingment_data.append(tuple((name, class_name, due_date)))
