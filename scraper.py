@@ -38,16 +38,22 @@ def scrape_toddle(MyUsername, MyPassword):
             EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'Todos__innerFeedContainer')]"))
         )
 
+        print("[INFO] Assignments container loaded successfully")
+
         time.sleep(1)
 
         assignments = []
         assignments_num = int(driver.find_element(By.XPATH, "//div[. = 'Upcoming']/following-sibling::div").text)
 
+        print(f"[INFO] {assignments_num} assignments found")
+
         while len(assignments) < assignments_num:
             assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
+            print(f"[INFO] Scrolling to load more assignments... {len(assignments)}/{assignments_num} assignments loaded")
             driver.execute_script("arguments[0].scrollIntoView();", assignments[-1])
             time.sleep(0.5)
         
+        print("[INFO] All assignments loaded successfully")
         return assignments, assignments_num
 
 
@@ -77,11 +83,13 @@ def scrape_toddle(MyUsername, MyPassword):
             assingment_data.append(tuple((name, class_name, due_date)))
 
         if '' in [assignment[2] for assignment in assingment_data]:
+            print("[WARNING] Some assignments have no due date, retrying...")
             assingment_data = []
         else:
             break
 
     for i in range(assignments_num):
+        print(f"[INFO] Scraping link for assignment {i + 1}/{assignments_num}...")
         actions.move_to_element(assignments[i]).click().perform()
         link = driver.current_url
         assingment_data[i] = assingment_data[i] + (link,)
@@ -154,4 +162,3 @@ for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
     username, password = decode_parts(key_combo)
     print("Scraping " + username + "'s toddle...")
     scrape_toddle(username, password)
-
