@@ -80,6 +80,7 @@ def scrape_toddle(MyUsername, MyPassword):
             name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
             class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
             due_date = assignment.find_element(By.XPATH, './div[2]/div[1]/div[2]').text
+            print(f"[INFO] Scraped assignment: {name} - {class_name} - {due_date}")
             assingment_data.append(tuple((name, class_name, due_date)))
 
         if '' in [assignment[2] for assignment in assingment_data]:
