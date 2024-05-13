@@ -9,73 +9,57 @@ import time
 import os, sys
 from datetime import datetime, timedelta
 from ics import Calendar, Event
-from pyvirtualdisplay import Display
 import os
 import json
-display = Display(visible=0, size=(1920, 1080))  
-display.start()
-
-env_vars = os.environ['ALLSECRETS']
-
 
 def scrape_toddle(MyUsername, MyPassword):  
 
     chromedriver_autoinstaller.install()
-
-    chrome_options = webdriver.ChromeOptions()    
-    # Add your options as needed    
+    chrome_options = webdriver.ChromeOptions()
     options = [
-    # Define window size here
-    "--window-size=1200,1200",
+        "--window-size=1200,1200",
         "--ignore-certificate-errors"
-    
-        #"--headless",
-        #"--disable-gpu",
-        #"--window-size=1920,1200", 
-        #"--ignore-certificate-errors",
-        #"--disable-extensions",
-        #"--no-sandbox",
-        #"--disable-dev-shm-usage",
-        #'--remote-debugging-port=9222'
     ]
-
     for option in options:
         chrome_options.add_argument(option)
-        
     driver = webdriver.Chrome(options = chrome_options)
+    actions = ActionChains(driver)
+
+
+    def load_all_assignments():
+
+        WebDriverWait(driver, 60).until( # Wait for assignment container to load
+            EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'Todos__innerFeedContainer')]"))
+        )
+
+        time.sleep(1)
+
+        assignments = []
+        assignments_num = int(driver.find_element(By.XPATH, "//div[. = 'Upcoming']/following-sibling::div").text)
+
+        while len(assignments) < assignments_num:
+            assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
+            driver.execute_script("arguments[0].scrollIntoView();", assignments[-1])
+            time.sleep(0.5)
+        
+        return assignments, assignments_num
+
+
 
     url = "https://web.toddleapp.com/platform?type=loginForm&usertype=student"
     driver.get(url)
 
     username_input = driver.find_element(By.XPATH, '//input[@name="email"]')
     password_input = driver.find_element(By.XPATH, '//input[@name="password"]')
-    submit_button = driver.find_element(By.XPATH, '//*[@id="root"]/div/div/div[2]/div/div[2]/div/div/div[3]/div[3]/button')
+    submit_button = driver.find_element(By.XPATH, "//button[@data-test-id='button-sign-in-button']")
 
     username_input.send_keys(MyUsername)
     password_input.send_keys(MyPassword)
-
     submit_button.click()
 
     time.sleep(2)
-    def load_all_assignments():
-        WebDriverWait(driver, 60).until(
-            EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[1]"))
-        )
-        time.sleep(2)
 
-        assignments_num = int(driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[1]/div/div[2]/div[2]').text)
-        assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
-        bottom_of_assignments = driver.find_element(By.XPATH, '/html/body/div[1]/div/div/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div[2]/div/div[2]/div/div[2]')
-
-        while len(assignments) < assignments_num:
-            driver.execute_script("arguments[0].scrollIntoView();", bottom_of_assignments)
-            time.sleep(0.5)
-            assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
-        return assignments, assignments_num
-
-    actions = ActionChains(driver)
-    macgyver = True
-    while macgyver:
+    while True:
         driver.get("https://web.toddleapp.com/platform/3716/todos")
         assignments, assignments_num = load_all_assignments()
         assingment_data = []
@@ -89,7 +73,7 @@ def scrape_toddle(MyUsername, MyPassword):
         if '' in [assignment[2] for assignment in assingment_data]:
             assingment_data = []
         else:
-            macgyver = False
+            break
 
     for i in range(assignments_num):
         actions.move_to_element(assignments[i]).click().perform()
@@ -157,11 +141,8 @@ def decode_parts(input_string):
     else:
         return None, None
 
-parsed_data = json.loads(env_vars)
-jsonkeys = get_all_keys(parsed_data)
 
-for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
-    username, password = decode_parts(key_combo)
-    print("Scraping " + username + "'s toddle...")
-    scrape_toddle(username, password)
-
+username = "102869@isp.cz"
+password = "david&vahe"
+print("Scraping " + username + "'s toddle...")
+scrape_toddle(username, password)
