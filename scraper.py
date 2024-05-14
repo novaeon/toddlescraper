@@ -87,15 +87,10 @@ def scrape_toddle(MyUsername, MyPassword):
 
         if '' in [assignment[2] for assignment in assingment_data]:
             if failcount == 5:
-                temp = []
                 print("[WARNING] Due date missing more than 5 times, skipping...")
-                for assignment in assingment_data:
-                    if assignment[2] != '':
-                        temp.append(assignment)
-                assingment_data = temp
                 break
             print("[WARNING] Some assignments have no due date, retrying...")
-            print("[WARNING] Missing dates: ", [assignment[0] for assignment in assingment_data if assignment[2] == ''])
+            print("[WARNING] Missing dates: ", [assignment for assignment in assingment_data if assignment[2] == ''])
             assingment_data = []
             failcount += 1
         else:
@@ -103,12 +98,22 @@ def scrape_toddle(MyUsername, MyPassword):
 
     for i in range(assignments_num):
         print(f"[INFO] Scraping link for assignment {i + 1}/{assignments_num}...")
+        if assingment_data[i][2] == '':
+            pass
         actions.move_to_element(assignments[i]).click().perform()
         link = driver.current_url
         assingment_data[i] = assingment_data[i] + (link,)
         driver.back()
         assignments, _ = load_all_assignments()
         time.sleep(1)
+
+    test = []
+
+    for assignment in assingment_data:
+        if assignment[2] != '':
+            test.append(assignment)
+
+    assingment_data = test
     
     
     def convert_date(input_date):
