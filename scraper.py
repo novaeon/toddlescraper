@@ -87,7 +87,7 @@ def scrape_toddle(MyUsername, MyPassword):
             assingment_data.append(tuple((name, class_name, due_date)))
 
         if '' in [assignment[2] for assignment in assingment_data]:
-            if failcount = 5:
+            if failcount == 5:
                 temp = []
                 print("[ERROR] Due date missing more than 5 times, skipping...")
                 for assignment in assingment_data:
