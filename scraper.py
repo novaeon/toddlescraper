@@ -71,6 +71,8 @@ def scrape_toddle(MyUsername, MyPassword):
 
     time.sleep(2)
 
+    failcount = 0
+
     while True:
         driver.get("https://web.toddleapp.com/platform/3716/todos")
         assignments, assignments_num = load_all_assignments()
@@ -85,9 +87,18 @@ def scrape_toddle(MyUsername, MyPassword):
             assingment_data.append(tuple((name, class_name, due_date)))
 
         if '' in [assignment[2] for assignment in assingment_data]:
+            if failcount = 5:
+                temp = []
+                print("[ERROR] Due date missing more than 5 times, skipping...")
+                for assignment in assingment_data:
+                    if assignment[2] != '':
+                        temp.append(assignment)
+                assingment_data = temp
+                break
             print("[WARNING] Some assignments have no due date, retrying...")
             print("[WARNING] Missing dates: ", [assignment[0] for assignment in assingment_data if assignment[2] == ''])
             assingment_data = []
+            failcount += 1
         else:
             break
 
