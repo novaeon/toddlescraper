@@ -2,27 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240526T220000Z
-DTSTART:20240526T220000Z
-SUMMARY:First EE Draft Due
-UID:8621dcdc-f3dd-4cae-94ba-ff9e02217177@8621.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/120088865653392276/120088865858920682">Link</a>
-DTEND:20240523T063000Z
-DTSTART:20240523T063000Z
-SUMMARY:MP Präsentation
-UID:3b3423fc-5051-45ea-936c-2478dadb45b5@3b34.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/120088865653392276/120088865858920682
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20240528T220000Z
-DTSTART:20240528T220000Z
-SUMMARY:Criteria D - Functionality
-UID:3a5e98c9-6e1c-4458-91a6-721e6d0262f8@3a5e.org
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Rough Draft of IA due
+UID:6dcab595-4707-4cf0-b005-30b189a39684@6dca.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
@@ -30,63 +14,79 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240530T110000Z
 DTSTART:20240530T110000Z
 SUMMARY:17 - Model Paper 1 on Travel Writing
-UID:d0130842-00a1-442f-ac47-bfbbb53ef988@d013.org
+UID:d3fa4d73-b896-4f7b-8d3d-42efd80158a7@d3fa.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/119617114339291680/119617114540607282
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Rough Draft of IA due
-UID:01970f2a-61a2-4ac6-81dc-5e3ef9d60d29@0197.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
-DTEND:20240603T070000Z
-DTSTART:20240603T070000Z
-SUMMARY:IA Submission for Initial feedback
-UID:c17f5e05-098a-4b51-abc8-de66ac1ebb97@c17f.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
-DTEND:20240618T063000Z
-DTSTART:20240618T063000Z
-SUMMARY:DP Lang & Lit Studied Works
-UID:3a154d2a-f3b0-4e09-8f9d-a0bd6266c1c0@3a15.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105142540977578431/105142541178897189">Link</a>
-DTEND:20240530T110000Z
-DTSTART:20240530T110000Z
-SUMMARY:Paper 1 - Travel Writing
-UID:6e45434e-a954-4320-ba02-11871ce50fb2@6e45.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105142540977578431/105142541178897189
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/119299560265754568/119299560433524497">Link</a>
-DTEND:20240523T063000Z
-DTSTART:20240523T063000Z
-SUMMARY:Hausaufgaben
-UID:342ccc5a-2143-406e-94ab-e109613f4d96@342c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/119299560265754568/119299560433524497
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP HL Math Analysis I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250">Link</a>
 DTEND:20240530T220000Z
 DTSTART:20240530T220000Z
 SUMMARY:Final Draft
-UID:00950e02-1dbd-4603-a0f9-caa2823b619f@0095.org
+UID:24702db9-09e6-40ee-af1e-afbf6931e17d@2470.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469421452837/projects/42785/progress/22854253693386250
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/119299560265754568/119299560433524497">Link</a>
+DTEND:20240523T063000Z
+DTSTART:20240523T063000Z
+SUMMARY:Hausaufgaben
+UID:18c3d92c-a99a-4533-8cbc-fda254bae21e@18c3.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/119299560265754568/119299560433524497
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
+DTEND:20240618T063000Z
+DTSTART:20240618T063000Z
+SUMMARY:DP Lang & Lit Studied Works
+UID:0f1974c4-aede-45b6-8940-5b16e3eaea24@0f19.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
+DTEND:20240603T070000Z
+DTSTART:20240603T070000Z
+SUMMARY:IA Submission for Initial feedback
+UID:d3adb0c5-6891-45ca-934c-10651937ef90@d3ad.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
+DTEND:20240528T220000Z
+DTSTART:20240528T220000Z
+SUMMARY:Criteria D - Functionality
+UID:85c7a823-7887-4a1f-80b2-463eda010fe0@85c7.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/105142540977578431/105142541178897189">Link</a>
+DTEND:20240530T110000Z
+DTSTART:20240530T110000Z
+SUMMARY:Paper 1 - Travel Writing
+UID:32d4e3af-bde9-456f-b202-4a48d095c41b@32d4.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/105142540977578431/105142541178897189
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/116749089382607731/116749139663920251">Link</a>
 DTEND:20240529T093000Z
 DTSTART:20240529T093000Z
 SUMMARY:Paper 1 Schreiben Traumpartner*in REFLEKTION
-UID:8e0e6cba-52fa-4a74-b638-98a6cd1dea30@8e0e.org
+UID:27e92760-0034-41cc-8d94-6039293a6433@27e9.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/116749089382607731/116749139663920251
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240526T220000Z
+DTSTART:20240526T220000Z
+SUMMARY:First EE Draft Due
+UID:ff1ba224-849b-4765-8e1b-3e12daea9022@ff1b.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/120088865653392276/120088865858920682">Link</a>
+DTEND:20240523T063000Z
+DTSTART:20240523T063000Z
+SUMMARY:MP Präsentation
+UID:22b24f98-fbcf-44b3-b95e-800206ec02ba@22b2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/120088865653392276/120088865858920682
 END:VEVENT
 END:VCALENDAR
