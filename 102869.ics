@@ -2,11 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
+DTEND:20240618T063000Z
+DTSTART:20240618T063000Z
+SUMMARY:DP Lang & Lit Studied Works
+UID:823abdac-fe00-4f73-8567-37b8402c1cc6@823a.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
+DTEND:20240603T070000Z
+DTSTART:20240603T070000Z
+SUMMARY:IA Submission for Initial feedback
+UID:28052a53-8170-4268-b8a5-f8b041534deb@2805.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122876526046742375/122876526323576134">Link</a>
+DTEND:20240531T111500Z
+DTSTART:20240531T111500Z
+SUMMARY:Üben\, üben\, üben 2
+UID:e85f532a-6d32-4e45-981f-9cbebee583c4@e85f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122876526046742375/122876526323576134
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
+DTEND:20240610T084500Z
+DTSTART:20240610T084500Z
+SUMMARY:Final Exam - Paper 2
+UID:34c4220a-3aaf-474f-826f-8a2c68e91b66@34c4.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
 DTEND:20240606T220000Z
 DTSTART:20240606T220000Z
 SUMMARY:Rough Draft of IA due
-UID:fab64ab5-997b-4303-ac44-0566136c7f6c@fab6.org
+UID:56c350a4-4141-46ef-9ab6-d4c214787eb8@56c3.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
@@ -14,39 +46,7 @@ DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/to
 DTEND:20240531T111500Z
 DTSTART:20240531T111500Z
 SUMMARY:Hausaufgaben
-UID:c80baae3-2160-4bac-a463-8e6dfe7a8339@c80b.org
+UID:471e1a5c-1d06-46ca-9851-257c895b032e@471e.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/121781444216365392/121781444375741302
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
-DTEND:20240603T070000Z
-DTSTART:20240603T070000Z
-SUMMARY:IA Submission for Initial feedback
-UID:1ee5ac31-f244-463b-93fb-a19801c66f46@1ee5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
-DTEND:20240610T084500Z
-DTSTART:20240610T084500Z
-SUMMARY:Final Exam - Paper 2
-UID:9fa9f7e1-3dae-45c6-9c24-6f5a8aa2c1aa@9fa9.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
-DTEND:20240618T063000Z
-DTSTART:20240618T063000Z
-SUMMARY:DP Lang & Lit Studied Works
-UID:4ee889ab-eedf-4959-86c8-4dd27cbb5f5e@4ee8.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP German B I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122876526046742375/122876526323576134">Link</a>
-DTEND:20240531T111500Z
-DTSTART:20240531T111500Z
-SUMMARY:Üben\, üben\, üben 2
-UID:d9cf08cc-a48a-4910-add0-90d1b2ed9f39@d9cf.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122876526046742375/122876526323576134
 END:VEVENT
 END:VCALENDAR
