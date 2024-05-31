@@ -2,19 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
+DTEND:20240610T084500Z
+DTSTART:20240610T084500Z
+SUMMARY:Final Exam - Paper 2
+UID:5bf2aba9-2671-4754-bd4f-52ddfe081b62@5bf2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
 DTEND:20240618T063000Z
 DTSTART:20240618T063000Z
 SUMMARY:DP Lang & Lit Studied Works
-UID:043dc839-f1de-4d6d-bd64-f17e89619e10@043d.org
+UID:0b4601ee-58ff-4681-97da-1f29f19266b6@0b46.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240619T220000Z
-DTSTART:20240619T220000Z
-SUMMARY:Meet regarding the feedback on the EE Draft
-UID:20ac94bf-22e5-403d-9ff2-8fb769b216ff@20ac.org
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Rough Draft of IA due
+UID:ffb8c97a-e770-455d-bcaa-96f104d3e983@ffb8.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Return of Drafts with Comments
+UID:4154ff1f-6714-4473-99de-09779308af89@4154.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -22,31 +38,15 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240603T070000Z
 DTSTART:20240603T070000Z
 SUMMARY:IA Submission for Initial feedback
-UID:a3b07314-7fcf-43c7-abff-83ee727fbb31@a3b0.org
+UID:c6684aad-5489-4b00-8c3f-f34500352077@c668.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Return of Drafts with Comments
-UID:8a27499d-b6ef-404b-a9ba-6cb09b83a514@8a27.org
+DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240619T220000Z
+DTSTART:20240619T220000Z
+SUMMARY:Meet regarding the feedback on the EE Draft
+UID:2386f547-949e-4104-b439-8b6385eb39c3@2386.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
-DTEND:20240610T084500Z
-DTSTART:20240610T084500Z
-SUMMARY:Final Exam - Paper 2
-UID:2a041c76-dcfe-4cb5-829f-b43799c2a1dd@2a04.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Rough Draft of IA due
-UID:807257c9-767a-40f5-8207-4016ab6ec528@8072.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 END:VCALENDAR
