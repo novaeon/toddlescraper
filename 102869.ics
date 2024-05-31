@@ -2,27 +2,35 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
-DTEND:20240610T084500Z
-DTSTART:20240610T084500Z
-SUMMARY:Final Exam - Paper 2
-UID:ea591952-c6c0-4810-bb3e-466b0a5a0017@ea59.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Rough Draft of IA due
+UID:e6ab9633-fadd-4ad7-8bc1-7e203935df86@e6ab.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240619T220000Z
 DTSTART:20240619T220000Z
 SUMMARY:Meet regarding the feedback on the EE Draft
-UID:cd24db93-759f-4896-8482-325b53533a6d@cd24.org
+UID:99b8c4b5-de24-4e00-b4e0-4f881eed7ceb@99b8.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
+DTEND:20240618T063000Z
+DTSTART:20240618T063000Z
+SUMMARY:DP Lang & Lit Studied Works
+UID:92f9efd2-2127-4087-8c32-10c933b872d2@92f9.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240606T220000Z
 DTSTART:20240606T220000Z
 SUMMARY:Return of Drafts with Comments
-UID:4d134df1-af2e-4b03-939d-a5bf8335c0b6@4d13.org
+UID:01a20412-6204-4999-ae1d-76f571ba66c6@01a2.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -30,23 +38,15 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240603T070000Z
 DTSTART:20240603T070000Z
 SUMMARY:IA Submission for Initial feedback
-UID:c4a649d3-a068-46d0-b44d-763b326a753a@c4a6.org
+UID:9b54bf46-b2c0-4e14-a780-13664718cb4b@9b54.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882">Link</a>
-DTEND:20240618T063000Z
-DTSTART:20240618T063000Z
-SUMMARY:DP Lang & Lit Studied Works
-UID:3988f731-3a8f-4f84-a757-3865de740050@3988.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Rough Draft of IA due
-UID:defb71f2-bd79-4648-abbd-a07dcb6aad60@defb.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
+DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
+DTEND:20240610T084500Z
+DTSTART:20240610T084500Z
+SUMMARY:Final Exam - Paper 2
+UID:23248bce-06f8-4790-9fb6-00e257728bd2@2324.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
 END:VEVENT
 END:VCALENDAR
