@@ -2,11 +2,19 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Rough Draft of IA due
+UID:0ef754f5-1a1c-4b87-9a49-ee64fe2f572b@0ef7.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
 DTEND:20240610T084500Z
 DTSTART:20240610T084500Z
 SUMMARY:Final Exam - Paper 2
-UID:4409e9f3-c7d1-45e2-952c-167838785c2f@4409.org
+UID:9a5b8794-76ad-4435-b3aa-bd39c18710f9@9a5b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
 END:VEVENT
 BEGIN:VEVENT
@@ -14,23 +22,15 @@ DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240603T070000Z
 DTSTART:20240603T070000Z
 SUMMARY:IA Submission for Initial feedback
-UID:09e494cb-6fc1-4f72-a491-790822db2009@09e4.org
+UID:f667113d-f88d-4c1f-8e4f-a6c93ca8e2ec@f667.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Rough Draft of IA due
-UID:45107b7e-66d4-4b97-aced-dcb665a8c997@4510.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20240619T220000Z
 DTSTART:20240619T220000Z
 SUMMARY:Meet regarding the feedback on the EE Draft
-UID:e4b9a45a-3472-45b9-a178-5a4b29f277ee@e4b9.org
+UID:93fc8d54-4d3c-4ef1-a733-6c00d1acce22@93fc.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -38,7 +38,7 @@ DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="ht
 DTEND:20240606T220000Z
 DTSTART:20240606T220000Z
 SUMMARY:Return of Drafts with Comments
-UID:47e0872e-c073-4772-976b-32a8766e88e0@47e0.org
+UID:d75734b3-c00a-45b8-8e8a-ebaf2697feb7@d757.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -46,7 +46,7 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240618T063000Z
 DTSTART:20240618T063000Z
 SUMMARY:DP Lang & Lit Studied Works
-UID:55ae941c-1d17-4b3a-80d9-7d3a92effeb6@55ae.org
+UID:48755689-2525-4f88-aff1-2c49595a4474@4875.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
 END:VEVENT
 END:VCALENDAR
