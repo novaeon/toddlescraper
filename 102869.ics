@@ -2,35 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240619T220000Z
-DTSTART:20240619T220000Z
-SUMMARY:Meet regarding the feedback on the EE Draft
-UID:b5d9023a-eb56-4df5-8c63-7a615f2b0cb4@b5d9.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
-DTEND:20240603T070000Z
-DTSTART:20240603T070000Z
-SUMMARY:IA Submission for Initial feedback
-UID:d5e5ece2-2120-4f66-ad81-c9608168ddb1@d5e5.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20240606T220000Z
-DTSTART:20240606T220000Z
-SUMMARY:Return of Drafts with Comments
-UID:9f921e86-2734-4fb7-859f-dee301de91ac@9f92.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092">Link</a>
 DTEND:20240610T084500Z
 DTSTART:20240610T084500Z
 SUMMARY:Final Exam - Paper 2
-UID:e296f536-f96b-4bc3-9bca-adcbde34974d@e296.org
+UID:a3be3405-d6a7-4d1d-94df-fb73b44d037b@a3be.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/122836635942389144/122836641663423092
 END:VEVENT
 BEGIN:VEVENT
@@ -38,15 +14,39 @@ DESCRIPTION:IBDP Language & Literature I A\n<a href="https://web.toddleapp.com/p
 DTEND:20240618T063000Z
 DTSTART:20240618T063000Z
 SUMMARY:DP Lang & Lit Studied Works
-UID:db7559d0-41e2-4b26-925e-34983e07bbe0@db75.org
+UID:7230d17f-cadb-4dcc-94d0-f6de4f520700@7230.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/115279840545870898/115279883722041882
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Uploaded to the Essay section of the EE page on Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240606T220000Z
+DTSTART:20240606T220000Z
+SUMMARY:Return of Drafts with Comments
+UID:0029f446-76f1-4d45-938f-d41cf25ea8b5@0029.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The students set up a meeting with their supervisors before June 20.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20240619T220000Z
+DTSTART:20240619T220000Z
+SUMMARY:Meet regarding the feedback on the EE Draft
+UID:4570bda2-0dfe-4dd4-bc03-b89d83d31a96@4570.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:IBDP Computer Science I\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
 DTEND:20240606T220000Z
 DTSTART:20240606T220000Z
 SUMMARY:Rough Draft of IA due
-UID:c3380f4c-aad0-4331-a6b8-55a3e7079652@c338.org
+UID:6fc99600-fa6c-43db-9204-572aaf7550f6@6fc9.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:IBDP Physics I\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419">Link</a>
+DTEND:20240603T070000Z
+DTSTART:20240603T070000Z
+SUMMARY:IA Submission for Initial feedback
+UID:1749803a-ed52-4ae6-a77c-7c11d8ee5012@1749.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/113162497699094802/113162497984308419
 END:VEVENT
 END:VCALENDAR
