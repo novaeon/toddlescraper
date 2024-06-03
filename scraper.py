@@ -38,22 +38,22 @@ def scrape_toddle(MyUsername, MyPassword):
             EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'Todos__innerFeedContainer')]"))
         )
 
-        print("[INFO] Assignments container loaded successfully")
+        #print("[INFO] Assignments container loaded successfully")
 
         time.sleep(1)
 
         assignments = []
         assignments_num = int(driver.find_element(By.XPATH, "//div[. = 'Upcoming']/following-sibling::div").text)
 
-        print(f"[INFO] {assignments_num} assignments found")
+        #print(f"[INFO] {assignments_num} assignments found")
 
         while len(assignments) < assignments_num:
             assignments = driver.find_elements(By.XPATH, "//*[starts-with(@class, 'FeedItem__container')]")
-            print(f"[INFO] Scrolling to load more assignments... {len(assignments)}/{assignments_num} assignments loaded")
+            #print(f"[INFO] Scrolling to load more assignments... {len(assignments)}/{assignments_num} assignments loaded")
             driver.execute_script("arguments[0].scrollIntoView();", assignments[-1])
             time.sleep(0.5)
         
-        print("[INFO] All assignments loaded successfully")
+        #print("[INFO] All assignments loaded successfully")
         return assignments, assignments_num
 
 
@@ -69,9 +69,15 @@ def scrape_toddle(MyUsername, MyPassword):
     password_input.send_keys(MyPassword)
     submit_button.click()
 
-    time.sleep(2)
+    try:
+        WebDriverWait(driver, 5).until( # Check if logged in
+            EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'Todos__innerFeedContainer')]"))
+        )
+    except:
+        print(f"[WARNING] {MyUsername} credentials incorrect.")
+        return
 
-    failcount = 0
+    time.sleep(2)
 
     while True:
         driver.get("https://web.toddleapp.com/platform/3716/todos")
@@ -82,22 +88,22 @@ def scrape_toddle(MyUsername, MyPassword):
             name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[1]').text
             class_name = assignment.find_element(By.XPATH, './div[1]/div/div[2]/div[2]').text
             due_date = assignment.text.strip().split('Due on')[1].split('Status')[0].strip()
-            print(f"[INFO] Scraped assignment: {name} - {class_name} - {due_date}")
+            #print(f"[INFO] Scraped assignment: {name} - {class_name} - {due_date}")
             assingment_data.append(tuple((name, class_name, due_date)))
 
         if '' in [assignment[2] for assignment in assingment_data]:
             if failcount == 5:
-                print("[WARNING] Due date missing more than 5 times, skipping...")
+                #print("[WARNING] Due date missing more than 5 times, skipping...")
                 break
-            print("[WARNING] Some assignments have no due date, retrying...")
-            print("[WARNING] Missing dates: ", [assignment for assignment in assingment_data if assignment[2] == ''])
+            #print("[WARNING] Some assignments have no due date, retrying...")
+            #print("[WARNING] Missing dates: ", [assignment for assignment in assingment_data if assignment[2] == ''])
             assingment_data = []
             failcount += 1
         else:
             break
 
     for i in range(assignments_num):
-        print(f"[INFO] Scraping link for assignment {i + 1}/{assignments_num}...")
+        #print(f"[INFO] Scraping link for assignment {i + 1}/{assignments_num}...")
         if assingment_data[i][2] == '':
             pass
         actions.move_to_element(assignments[i]).click().perform()
@@ -137,7 +143,7 @@ def scrape_toddle(MyUsername, MyPassword):
 
     c = Calendar()
 
-    print([assignment[2] for assignment in assingment_data])
+    #print([assignment[2] for assignment in assingment_data])
 
     for assignment in assingment_data:
         e = Event()
@@ -150,6 +156,8 @@ def scrape_toddle(MyUsername, MyPassword):
     filename = MyUsername.split("@")[0] + ".ics"
     with open(filename, 'w') as my_file:
         my_file.writelines(c.serialize_iter())
+
+    print(f"[INFO] Succesfully scraped {MyUsername}.")
 
 def get_all_keys(data, prefix="", keys_list=None):
     if keys_list is None:
@@ -169,7 +177,7 @@ def decode_parts(input_string):
     if len(parts) >= 3:
         decoded_second_part = bytes.fromhex(parts[1]).decode('utf-8')
         decoded_third_part = bytes.fromhex(parts[2]).decode('utf-8')
-        return decoded_second_part, decoded_third_part
+        return decoded_second_part, decoded_third_part    
     else:
         return None, None
 
@@ -178,5 +186,5 @@ jsonkeys = get_all_keys(parsed_data)
 
 for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
     username, password = decode_parts(key_combo)
-    print("Scraping " + username + "'s toddle...")
+    print("[INFO] Scraping " + username + "'s toddle...")
     scrape_toddle(username, password)
