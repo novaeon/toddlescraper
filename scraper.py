@@ -7,16 +7,17 @@ from selenium.webdriver.support import expected_conditions as EC
 import chromedriver_autoinstaller
 import time
 import os, sys
-from pyvirtualdisplay import Display
 from datetime import datetime, timedelta
 from ics import Calendar, Event
 import os
 import json
 
-display = Display(visible=0, size=(1920, 1080))  
-display.start()
+if not os.name == 'nt':
+    from pyvirtualdisplay import Display
+    display = Display(visible=0, size=(1920, 1080))  
+    display.start()
+    env_vars = os.environ['ALLSECRETS']
 
-env_vars = os.environ['ALLSECRETS']
 
 def scrape_toddle(MyUsername, MyPassword):  
 
@@ -71,14 +72,14 @@ def scrape_toddle(MyUsername, MyPassword):
 
     try:
         WebDriverWait(driver, 5).until( # Check if logged in
-            EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'Todos__innerFeedContainer')]"))
+            EC.presence_of_element_located((By.XPATH, "//*[starts-with(@class, 'StudentCourses')]"))
         )
     except:
         print(f"[WARNING] {MyUsername} credentials incorrect.")
         return
 
     time.sleep(2)
-
+    failcount = 0
     while True:
         driver.get("https://web.toddleapp.com/platform/3716/todos")
         assignments, assignments_num = load_all_assignments()
@@ -96,7 +97,7 @@ def scrape_toddle(MyUsername, MyPassword):
                 #print("[WARNING] Due date missing more than 5 times, skipping...")
                 break
             #print("[WARNING] Some assignments have no due date, retrying...")
-            #print("[WARNING] Missing dates: ", [assignment for assignment in assingment_data if assignment[2] == ''])
+            print("[WARNING] Missing dates: ", [assignment for assignment in assingment_data if assignment[2] == ''])
             assingment_data = []
             failcount += 1
         else:
@@ -181,10 +182,15 @@ def decode_parts(input_string):
     else:
         return None, None
 
-parsed_data = json.loads(env_vars)
-jsonkeys = get_all_keys(parsed_data)
+if not os.name == 'nt':
+    parsed_data = json.loads(env_vars)
+    jsonkeys = get_all_keys(parsed_data)
 
-for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
-    username, password = decode_parts(key_combo)
-    print("[INFO] Scraping " + username + "'s toddle...")
+    for key_combo in [keys for keys in jsonkeys if keys.startswith("ISP_")]:
+        username, password = decode_parts(key_combo)
+        print("[INFO] Scraping " + username + "'s toddle...")
+        scrape_toddle(username, password)
+else:
+    username = input("Username: ")
+    password = input("Password: ")
     scrape_toddle(username, password)
