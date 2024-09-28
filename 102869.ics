@@ -2,19 +2,27 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20241006T220000Z
-DTSTART:20241006T220000Z
-SUMMARY:Final EE Draft Due
-UID:b7864c9e-38d3-4751-8c43-2529cffcba0b@b786.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
+DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202">Link</a>
+DTEND:20241007T070000Z
+DTSTART:20241007T070000Z
+SUMMARY:Scholarly Article Presentation
+UID:e4264c58-29ae-475b-84b2-70fb0316798e@e426.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:German IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106">Link</a>
+DTEND:20241001T090000Z
+DTSTART:20241001T090000Z
+SUMMARY:Hausaufgaben
+UID:23cfbfde-f4f7-4be3-bc52-1bac672e1d0a@23cf.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214">Link</a>
 DTEND:20241011T070000Z
 DTSTART:20241011T070000Z
 SUMMARY:Architects of Computing: Building Knowledge with Bits and Pieces
-UID:dd262daf-4543-4e0e-916f-27348d9ec8ed@dd26.org
+UID:339818cf-997d-469a-89b6-b6cbc0df31d8@3398.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214
 END:VEVENT
 BEGIN:VEVENT
@@ -22,15 +30,23 @@ DESCRIPTION:Lang Lit IB2.1\n<a href="https://web.toddleapp.com/platform/3716/tod
 DTEND:20240930T091000Z
 DTSTART:20240930T091000Z
 SUMMARY:10 - Presentations and Summative Prep
-UID:826a0ef8-9b88-433e-913c-066a2f9b0c25@826a.org
+UID:392b35de-4a2f-4f1c-a36e-d1e46b8f6a2f@392b.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/160201631802066271/160201632028565662
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
+DTEND:20241014T220000Z
+DTSTART:20241014T220000Z
+SUMMARY:Final IA Due
+UID:009b8e8f-8e3c-4d3b-a791-b19edc52ff1e@009b.org
+URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007">Link</a>
 DTEND:20240930T070000Z
 DTSTART:20240930T070000Z
 SUMMARY:Topic 2 Assessment
-UID:ed774e90-13e8-4ced-9a45-718d0ffe9e0f@ed77.org
+UID:c05756ae-3828-44ae-aa3c-b46a9de05e0f@c057.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007
 END:VEVENT
 BEGIN:VEVENT
@@ -38,47 +54,31 @@ DESCRIPTION:Upload PDF documents to Toddle.\n<a href="https://web.toddleapp.com/
 DTEND:20241006T220000Z
 DTSTART:20241006T220000Z
 SUMMARY:EE Final Draft Due
-UID:6cb0a732-aab0-49ec-822d-981875dca1a9@6cb0.org
+UID:910f0a05-f655-453c-b72a-32d50d802da2@910f.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:German IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106">Link</a>
-DTEND:20241001T090000Z
-DTSTART:20241001T090000Z
-SUMMARY:Hausaufgaben
-UID:1b8e8b3b-c71b-42f1-bdc9-d6d1dedaeecb@1b8e.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202">Link</a>
-DTEND:20241007T070000Z
-DTSTART:20241007T070000Z
-SUMMARY:Scholarly Article Presentation
-UID:56a1342e-9d63-4f0c-ae3c-51d89d0bf67f@56a1.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330">Link</a>
-DTEND:20241014T220000Z
-DTSTART:20241014T220000Z
-SUMMARY:Final IA Due
-UID:633833d8-64f7-4851-a84e-f593f262f919@6338.org
-URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Maths Analysis HL IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/154832760186347727/154832760400263534">Link</a>
 DTEND:20241003T133000Z
 DTSTART:20241003T133000Z
 SUMMARY:Statistics and Probability Test
-UID:0d806718-c292-4517-b9d7-3e70a0918f4b@0d80.org
+UID:af6f96d8-b7bc-4587-8e9d-7805fa46aeb3@af6f.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/154832760186347727/154832760400263534
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20241006T220000Z
+DTSTART:20241006T220000Z
+SUMMARY:Final EE Draft Due
+UID:74ea2605-9930-4489-afb1-3536b7655853@74ea.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Economics IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/164873071969186246/164873072480893099">Link</a>
 DTEND:20241016T070000Z
 DTSTART:20241016T070000Z
 SUMMARY:Macro unit exam - Paper 2
-UID:b762b2b3-d1ea-4f97-a5f3-11c218fd66e8@b762.org
+UID:91219fc7-1bb9-4153-9366-0c042564a120@9121.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/164873071969186246/164873072480893099
 END:VEVENT
 END:VCALENDAR
