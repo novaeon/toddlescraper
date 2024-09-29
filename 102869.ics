@@ -2,11 +2,43 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
+DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214">Link</a>
+DTEND:20241011T070000Z
+DTSTART:20241011T070000Z
+SUMMARY:Architects of Computing: Building Knowledge with Bits and Pieces
+UID:f4412c0f-7667-468e-ac67-f1fa62b04202@f441.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:German IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106">Link</a>
+DTEND:20241001T090000Z
+DTSTART:20241001T090000Z
+SUMMARY:Hausaufgaben
+UID:ca3b2086-256a-4557-9c56-ebcb5961f83b@ca3b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007">Link</a>
+DTEND:20240930T070000Z
+DTSTART:20240930T070000Z
+SUMMARY:Topic 2 Assessment
+UID:f87b3afd-b160-4366-86ee-042addc7cc76@f87b.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lang Lit IB2.1\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/160201631802066271/160201632028565662">Link</a>
+DTEND:20240930T091000Z
+DTSTART:20240930T091000Z
+SUMMARY:10 - Presentations and Summative Prep
+UID:af616bd3-25b6-49c0-941d-51be75860d38@af61.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/160201631802066271/160201632028565662
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Upload PDF documents to Toddle.\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
 DTEND:20241006T220000Z
 DTSTART:20241006T220000Z
 SUMMARY:EE Final Draft Due
-UID:bddd58f9-25e8-427e-8dfc-e5fcaa876773@bddd.org
+UID:c0762d70-0697-4587-9590-bf36da677e41@c076.org
 URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
@@ -14,71 +46,39 @@ DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/37
 DTEND:20241014T220000Z
 DTSTART:20241014T220000Z
 SUMMARY:Final IA Due
-UID:a17b0437-0862-4c3f-a288-8d7b7853eb40@a17b.org
+UID:d2991823-fe7a-4097-becf-b3113f20d3be@d299.org
 URL:https://web.toddleapp.com/platform/3716/courses/22853469488561710/projects/42768/progress/22854253680803330
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214">Link</a>
-DTEND:20241011T070000Z
-DTSTART:20241011T070000Z
-SUMMARY:Architects of Computing: Building Knowledge with Bits and Pieces
-UID:ff161202-b7c0-471d-a6b9-05350efc1624@ff16.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161262448840554598/161262449159312214
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Lang Lit IB2.1\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/160201631802066271/160201632028565662">Link</a>
-DTEND:20240930T091000Z
-DTSTART:20240930T091000Z
-SUMMARY:10 - Presentations and Summative Prep
-UID:9c680e70-4802-4e17-a59f-284c6cb824fb@9c68.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/160201631802066271/160201632028565662
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202">Link</a>
-DTEND:20241007T070000Z
-DTSTART:20241007T070000Z
-SUMMARY:Scholarly Article Presentation
-UID:834c0c49-d731-48d4-a286-28be9a536fcf@834c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007">Link</a>
-DTEND:20240930T070000Z
-DTSTART:20240930T070000Z
-SUMMARY:Topic 2 Assessment
-UID:6e8cf5d4-bcf7-4f2f-abf1-d217699fa6b3@6e8c.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161261591407376469/161261591659025007
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
-DTEND:20241006T220000Z
-DTSTART:20241006T220000Z
-SUMMARY:Final EE Draft Due
-UID:a8f30b3e-6001-4ae3-ac3a-85d258f8e68f@a8f3.org
-URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Maths Analysis HL IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/154832760186347727/154832760400263534">Link</a>
 DTEND:20241003T133000Z
 DTSTART:20241003T133000Z
 SUMMARY:Statistics and Probability Test
-UID:6502ff71-7073-46f9-a932-3c7d42331730@6502.org
+UID:4e347b07-bbf7-4b8e-95b1-e790aaaaef53@4e34.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/154832760186347727/154832760400263534
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Computer Science IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202">Link</a>
+DTEND:20241007T070000Z
+DTSTART:20241007T070000Z
+SUMMARY:Scholarly Article Presentation
+UID:b1f25150-7269-462a-b74c-623a09dfb08e@b1f2.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/161258003020920855/161258003364843202
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Economics IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/164873071969186246/164873072480893099">Link</a>
 DTEND:20241016T070000Z
 DTSTART:20241016T070000Z
 SUMMARY:Macro unit exam - Paper 2
-UID:e1d5c67d-7dc3-4b80-a6c7-215926454680@e1d5.org
+UID:716dbe7e-24e8-4884-bdad-90407a240bd2@716d.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/164873071969186246/164873072480893099
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:German IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106">Link</a>
-DTEND:20241001T090000Z
-DTSTART:20241001T090000Z
-SUMMARY:Hausaufgaben
-UID:bddca605-9eb2-4ef4-9245-857da476c09f@bddc.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/165757939200568595/165757939582251106
+DESCRIPTION:No description added\n<a href="https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901">Link</a>
+DTEND:20241006T220000Z
+DTSTART:20241006T220000Z
+SUMMARY:Final EE Draft Due
+UID:d6552f64-39c4-47c6-9f85-1bf11d8baf65@d655.org
+URL:https://web.toddleapp.com/platform/3716/project-group-types/DP_EE/projects/42812/progress/224901
 END:VEVENT
 END:VCALENDAR
