@@ -2,19 +2,11 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DESCRIPTION:Physics IB2.1\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/172294709509626730/172294710625315114">Link</a>
-DTEND:20241103T210000Z
-DTSTART:20241103T210000Z
-SUMMARY:IA Final Draft
-UID:88dbc38b-e124-433b-90cf-9f4357359127@88db.org
-URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/172294709509626730/172294710625315114
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Economics IB2\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/170773749585423964/170773750172617948">Link</a>
 DTEND:20241030T080000Z
 DTSTART:20241030T080000Z
 SUMMARY:Macro commentary draft for peer review
-UID:db5608de-69cc-4a96-b754-20d10f581554@db56.org
+UID:cc59cb53-f0ce-46cf-ada2-3fc0383af1e2@cc59.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/170773749585423964/170773750172617948
 END:VEVENT
 BEGIN:VEVENT
@@ -22,7 +14,15 @@ DESCRIPTION:Economics IB2\n<a href="https://web.toddleapp.com/platform/3716/todo
 DTEND:20241101T080000Z
 DTSTART:20241101T080000Z
 SUMMARY:Macro commentary first draft
-UID:0472632a-d061-43b7-ad58-5dbaf3c72729@0472.org
+UID:99ea416b-7d5e-4f25-af4e-49e11ecbc9b3@99ea.org
 URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/170774150774795876/170774151479430470
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Physics IB2.1\n<a href="https://web.toddleapp.com/platform/3716/todos/classroom-details/172294709509626730/172294710625315114">Link</a>
+DTEND:20241103T210000Z
+DTSTART:20241103T210000Z
+SUMMARY:IA Final Draft
+UID:298f7cdf-e210-41ef-a1fd-5b19633192bd@298f.org
+URL:https://web.toddleapp.com/platform/3716/todos/classroom-details/172294709509626730/172294710625315114
 END:VEVENT
 END:VCALENDAR
